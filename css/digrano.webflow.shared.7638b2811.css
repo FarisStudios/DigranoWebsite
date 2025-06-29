@@ -2957,7 +2957,7 @@ textarea.w-input, textarea.w-select {
   border-radius: 0;
   flex-flow: column;
   width: auto;
-  height: 54vh;
+  height: 100%;
   margin-left: 0;
   margin-right: 0;
   display: flex;
@@ -3876,7 +3876,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .div-block-17 {
-    width: auto;
+    width: 100%;
   }
 
   .section-2 {
