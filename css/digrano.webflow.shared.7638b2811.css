@@ -2957,7 +2957,7 @@ textarea.w-input, textarea.w-select {
   border-radius: 0;
   flex-flow: column;
   width: auto;
-  height: 100%;
+  height: auto;
   margin-left: 0;
   margin-right: 0;
   display: flex;
