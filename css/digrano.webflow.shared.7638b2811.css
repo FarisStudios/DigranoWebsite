@@ -2386,7 +2386,6 @@ textarea.w-input, textarea.w-select {
 .hero-heading-left {
   background-color: #7a0c08;
   border-bottom: 1px solid #e4ebf3;
-  height: 90vh;
   padding: 180px 30px;
   position: relative;
 }
@@ -2438,7 +2437,6 @@ textarea.w-input, textarea.w-select {
 
 .features-section {
   flex-flow: column;
-  height: 90vh;
   padding-top: 50px;
   padding-bottom: 50px;
   display: flex;
@@ -2572,7 +2570,7 @@ textarea.w-input, textarea.w-select {
   border-radius: 7px;
   flex-flow: column;
   width: 25vw;
-  height: 54vh;
+  height: 100%;
   margin-left: 10px;
   margin-right: 10px;
   padding-left: 0;
@@ -2590,7 +2588,6 @@ textarea.w-input, textarea.w-select {
   float: none;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  width: 350px;
   display: block;
   position: relative;
 }
@@ -2605,7 +2602,7 @@ textarea.w-input, textarea.w-select {
 .div-block-10 {
   justify-content: flex-start;
   align-items: flex-end;
-  height: 20%;
+  height: Auto;
   padding: 20px;
   display: flex;
 }
@@ -2617,7 +2614,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .div-block-11 {
-  height: 30%;
+  height: Auto;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -3227,7 +3224,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .div-block-24 {
-  height: 50%;
+  height: 30VH;
 }
 
 .homemenupreview {
@@ -3730,8 +3727,8 @@ textarea.w-input, textarea.w-select {
   }
 
   .div-block-17 {
-    width: 100%;
-    height: 100%;
+    width: Auto;
+    height: Auto;
   }
 
   .section-2.topadjustments {
