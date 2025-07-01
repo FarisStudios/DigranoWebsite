@@ -3413,7 +3413,7 @@ textarea.w-input, textarea.w-select {
 
   .collection-item.menu-item {
     width: 300px;
-    height: 45vh;
+    height: 65vh;
     margin-left: 0;
     margin-right: 0;
   }
@@ -3816,6 +3816,7 @@ textarea.w-input, textarea.w-select {
 
   .collection-item.menu-item {
     width: 100%;
+    height: auto;
   }
 
   .paragraph-2 {
