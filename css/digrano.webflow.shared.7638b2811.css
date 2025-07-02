@@ -3969,10 +3969,10 @@ textarea.w-input, textarea.w-select {
     font-size: 33px;
   }
 
-  ion-icon {
+  .ion-icon {
   color: #1b1c20;
   font-size: 24px;
-}
+  }
 
 
 }
