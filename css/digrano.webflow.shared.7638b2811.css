@@ -2607,7 +2607,7 @@ textarea.w-input, textarea.w-select {
   display: flex;
 }
 
-.text-block-2 {
+.number-price-tag {
   color: var(--mainred);
   font-size: 20px;
   font-weight: 700;
@@ -2630,7 +2630,7 @@ textarea.w-input, textarea.w-select {
   display: block;
 }
 
-.text-block-3 {
+.egp-price-tag {
   color: var(--mainred);
   font-size: 17px;
   font-weight: 700;
@@ -2879,6 +2879,11 @@ textarea.w-input, textarea.w-select {
 
 .footer-social-link-three {
   margin-left: 32px;
+}
+
+.footer-social-link-three.w-inline-block {
+  color: #1b1c20;
+  font-size: 24px;
 }
 
 .footer-divider-two {
@@ -3963,6 +3968,13 @@ textarea.w-input, textarea.w-select {
   .heading-3-copy {
     font-size: 33px;
   }
+
+  ion-icon {
+  color: rgb(77, 77, 77);
+  font-size: 16px;
+}
+
+
 }
 
 #w-node-a2446218-75de-2a22-dba7-dd1c918c21c0-2280a21b, #w-node-_617c8518-118e-ef25-e3ae-57f60e8a9ba4-2280a21b, #w-node-_56be7411-0d21-74da-ebd4-41821183ddd6-2280a21b, #w-node-ea094fdf-0bb7-7d89-a91b-0ca349556c66-2280a21b, #w-node-_800a591f-d955-103d-dee8-c94cf58cd1bd-2280a21b {
