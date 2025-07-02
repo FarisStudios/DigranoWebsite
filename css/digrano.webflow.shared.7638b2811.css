@@ -788,6 +788,15 @@ textarea.w-input, textarea.w-select {
   display: none !important;
 }
 
+.ion-icon {
+    color: #1b1c20;
+    font-size: 24px;
+}
+
+.hidden-element-dev {
+    display: none !important; 
+}
+
 @media screen and (max-width: 991px) {
   .w-container {
     max-width: 728px;
@@ -3968,12 +3977,6 @@ textarea.w-input, textarea.w-select {
   .heading-3-copy {
     font-size: 33px;
   }
-
-  .ion-icon {
-  color: #1b1c20;
-  font-size: 24px;
-  }
-
 
 }
 
