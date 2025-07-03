@@ -5,6 +5,39 @@ html {
   scroll-behavior: auto;
 }
 
+.announcment-bar {
+  background-color: #570805;
+  color: white;
+  padding: 16px 0;
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  height: 5vh;
+  overflow: hidden;
+  text-wrap: nowrap;
+}
+
+.text-announcment-bar{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.animated-announcment-bar {
+  display: flex;
+  justify-content: space-between;
+  animation: scroll 60s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+
+   100% {
+    transform: translateX(-100%);
+  }
+}
+
 body {
   margin: 0;
 }
@@ -864,6 +897,30 @@ textarea.w-input, textarea.w-select {
     left: auto;
     right: auto;
   }
+
+  /* Announcment Bar CSS Bundle */
+
+  .text-announcment-bar{
+    padding-left: 40px;
+    padding-right: 100px;
+  }
+
+  .animated-announcment-bar {
+    animation: scroll 25s linear infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+    transform: translateX(100%);
+    }
+
+   100% {
+    transform: translateX(-150%);
+   }
+  }
+
+  /* Announcment Bar CSS Bundle */
+
 }
 
 @media screen and (max-width: 767px) {
@@ -933,6 +990,30 @@ textarea.w-input, textarea.w-select {
   .w-col-small-12 {
     width: 100%;
   }
+
+  /* Announcment Bar CSS Bundle */
+
+  .text-announcment-bar{
+    padding-left: 40px;
+    padding-right: 100px;
+  }
+
+  .animated-announcment-bar {
+    animation: scroll 25s linear infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+    transform: translateX(100%);
+    }
+
+   100% {
+    transform: translateX(-200%);
+   }
+  }
+  
+  /* Announcment Bar CSS Bundle */
+
 }
 
 @media screen and (max-width: 479px) {
@@ -3966,6 +4047,20 @@ textarea.w-input, textarea.w-select {
     text-align: center;
     font-size: 35px;
     line-height: 35px;
+  }
+
+  .animated-announcment-bar {
+  animation: scroll 20s linear infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+    transform: translateX(100%);
+    }
+
+   100% {
+    transform: translateX(-300%);
+   }
   }
 
   .div-block-23 {
