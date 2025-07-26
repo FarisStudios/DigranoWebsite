@@ -8,11 +8,11 @@ html {
 .announcment-bar {
   background-color: #570805;
   color: white;
-  padding: 16px 0;
+  /* padding: 16px 0px 16px 0px;*/
   position: relative;
   font-size: 24px;
   font-weight: bold;
-  height: 5vh;
+  height: auto;
   overflow: hidden;
   text-wrap: nowrap;
 }
@@ -20,6 +20,8 @@ html {
 .text-announcment-bar{
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .animated-announcment-bar {
@@ -3177,6 +3179,17 @@ textarea.w-input, textarea.w-select {
 }
 
 .menubeveragessection {
+  background-color: var(--mainred);
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+.menusoupssection {
+  
   flex-flow: column;
   justify-content: center;
   align-items: center;
