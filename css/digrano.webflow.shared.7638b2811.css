@@ -3189,7 +3189,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .menusoupssection {
-  
+  background-color: var(--mainred);
   flex-flow: column;
   justify-content: center;
   align-items: center;
