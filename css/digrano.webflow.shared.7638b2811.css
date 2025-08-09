@@ -2496,10 +2496,76 @@ textarea.w-input, textarea.w-select {
   display: flex;
 }
 
+.hero-heading-center {
+  background-color: #7a0c08;
+  padding: 50px 30px;
+  position: relative;
+  text-align: center;
+  height: auto;
+  
+}
+
+.checkers-container{
+  width: 100%;
+  height:  auto;
+  display: flex;
+}
+
+.checkers-divider{
+  height:  auto;
+  padding-bottom: -5px;
+}
+
+.hero-wrapper-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.hero-split-center {
+  grid-column-gap: 28px;
+  grid-row-gap: 28px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 46%;
+  display: flex;
+}
+
 .special-border{
   border: 2px solid var(--accentyellow);
   padding: 5px;
   border-radius: 5px;
+}
+
+
+         .special-button {background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%, #FF8008  100%)}
+         .special-button {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            
+            border-radius: 10px;
+            display: block;
+          }
+
+          .special-button:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+.heading-special {
+  color: #fff;
+  font-family: "Playfair Display", Helvetica Neue, serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 72px;
+  line-height: 100%;
 }
 
 .hero-split {
@@ -2532,6 +2598,8 @@ textarea.w-input, textarea.w-select {
   font-size: 72px;
   line-height: 100%;
 }
+
+
 
 .heading-2 {
   color: #e89c1e;
@@ -3523,7 +3591,6 @@ textarea.w-input, textarea.w-select {
   .featuresblocks {
     justify-content: flex-start;
     align-items: center;
-    height: 45vh;
     max-height: 100%;
   }
 
@@ -3877,8 +3944,15 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+
+  .hero-heading-center
+
   .navbar-brand {
     width: auto;
+  }
+
+  .heading-special{
+    font-size: 35px;
   }
 
   .nav-menu {
@@ -3915,7 +3989,8 @@ textarea.w-input, textarea.w-select {
   }
 
   .margin-bottom-24px {
-    font-size: 17px;
+    font-size: 13px;
+    line-height: auto;
   }
 
   .heading, .heading-2 {
@@ -3936,7 +4011,6 @@ textarea.w-input, textarea.w-select {
 
   .featuresblocks {
     width: 80%;
-    height: 40vh;
   }
 
   .menupreview {

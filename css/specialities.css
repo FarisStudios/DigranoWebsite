@@ -5,6 +5,148 @@ html {
   scroll-behavior: auto;
 }
 
+/* OFFERS css*/
+.offers-font-bebas {
+      font-family: 'Bebas Neue', sans-serif;
+    }
+    .offers-font-poppins {
+      font-family: 'Poppins', sans-serif;
+    }
+    .offers-font-rosario {
+      font-family: "Faculty Glyphic", sans-serif;
+    }
+
+    /* Deals container */
+    .offers-deals-container {
+      width: 100%;
+      padding: 0 160px;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+ @media screen and (max-width: 479px) {
+  .offers-deals-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 10vw;
+      }
+
+ }
+    
+    @media (min-width: 768px) {
+      .offers-deals-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 10vw;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .offers-deals-container {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 10vw;
+      }
+    }
+
+    /* Offer card styles */
+    .offers-offer-card {
+      position: relative;
+      background-color: #e79c1d;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1-px rgba(0, 0, 0, 0.06);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .offers-top-section {
+      background-color: #7A0C08;
+      height: 8rem; /* h-32 */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      padding: 1rem;
+      gap: 10px;
+    }
+
+    .offers-offer-text {
+      font-family: "Playfair Display", Helvetica Neue, serif;
+      font-style: italic;
+      font-size: 1.5rem;
+      color: white;
+      margin-bottom: 15px;
+    }
+
+    .offers-old-price {
+      font-size: 1.25rem; /* text-xl */
+      opacity: 0.8;
+      color: #e79c1d;
+      font-family: "Faculty Glyphic", sans-serif;
+      text-decoration: red line-through 4px;
+      text-decoration-color: red;
+    }
+
+    .offers-new-price {
+      font-size: 2.25rem; /* text-4xl */
+      margin-top: 0.25rem;
+      color: #e79c1d;
+      font-family: "Faculty Glyphic", sans-serif;
+    }
+    
+    .offers-bottom-section {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-grow: 1;
+    }
+
+    .offers-deal-description {
+      color: #7A0C08;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.125rem; /* text-lg */
+      font-weight: 700; /* font-bold */
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .offers-discount-circle {
+      width: 5rem; /* w-20 */
+      height: 5rem; /* h-20 */
+      background-color: #7A0C08;
+      border-radius: 9999px; /* rounded-full */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #e79c1d;
+      font-family: "Faculty Glyphic", sans-serif;
+      font-size: 1.875rem; /* text-3xl */
+      font-weight: 700; /* font-bold */
+      margin: auto;
+      margin-top: auto;
+    }
+
+
+
+
+/* OFFERS css*/
+
+.checkers-container{
+  width: 100%;
+  height:  auto;
+  display: flex;
+}
+
+.checkers-divider{
+  height:  auto;
+  padding-bottom: -5px;
+}
+
+
+
 .announcment-bar {
   background-color: #570805;
   color: white;
@@ -2485,7 +2627,6 @@ textarea.w-input, textarea.w-select {
 
 .hero-heading-left {
   background-color:var(--mainred);
-  border-bottom: 1px solid #e4ebf3;
   padding: 80px 30px;
   position: relative;
   align-items: center;
