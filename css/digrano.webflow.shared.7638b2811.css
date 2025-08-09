@@ -2502,7 +2502,6 @@ textarea.w-input, textarea.w-select {
   position: relative;
   text-align: center;
   height: auto;
-  
 }
 
 .checkers-container{
@@ -3944,8 +3943,6 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
-
-  .hero-heading-center
 
   .navbar-brand {
     width: auto;
