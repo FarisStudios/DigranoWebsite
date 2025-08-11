@@ -2856,6 +2856,14 @@ textarea.w-input, textarea.w-select {
   font-size: 29px;
 }
 
+.unavailable-item-text{
+  font-family: Varela Round, sans-serif;
+  color: var(--mainred);
+  font-size: 16px;
+  padding:5px 0px;
+  font-style: italic;
+}
+
 .div-block-14 {
   align-self: center;
   margin-top: 40px;
