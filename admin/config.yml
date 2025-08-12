@@ -1,23 +1,7 @@
-# 
-# This is the updated authentication backend section
-#
 backend:
-  name: github
-  auth_type: pkce
-  repo: FarisStudios/DigranoWebsite # Replace with your GitHub details
-  auth_provider: auth0
+  name: git-gateway
+  branch: main # or master, depending on your default branch
 
-#
-# This is the new Auth0 configuration section
-#
-auth0:
-  domain: dev-m4j11mu82gmyipp8.us.auth0.com
-  client_id: ASE4yFR4OGrkB6VXOv9ZpBoCnpORC247
-  audience: "https://api.github.com"
-  
-#
-# The rest of your configuration remains the same
-#
 media_folder: "assets/uploads" 
 public_folder: "/assets/uploads" 
 
