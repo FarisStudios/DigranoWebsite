@@ -11,8 +11,8 @@ backend:
 # This is the new Auth0 configuration section
 #
 auth0:
-  domain: dev-m4j11mu82gmyipp8.us.auth0.com # Paste your Auth0 Domain here
-  client_id: ASE4yFR4OGrkB6VXOv9ZpBoCnpORC247 # Paste your Auth0 Client ID here
+  domain: dev-m4j11mu82gmyipp8.us.auth0.com
+  client_id: ASE4yFR4OGrkB6VXOv9ZpBoCnpORC247
   audience: "https://api.github.com"
   
 #
