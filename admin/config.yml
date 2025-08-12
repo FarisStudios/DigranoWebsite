@@ -5,9 +5,6 @@ backend:
   name: github
   auth_type: pkce
   repo: FarisStudios/DigranoWebsite # Replace with your GitHub details
-  branch: main
-  base_url: https://digrano.net
-  auth_endpoint: auth
   auth_provider: auth0
 
 #
