@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "name": "Pizza",
+      "menu_items": []
+    },
+    {
+      "name": "Pasta",
+      "menu_items": []
+    },
+    {
+      "name": "Salad",
+      "menu_items": []
+    },
+    {
+      "name": "Desserts",
+      "menu_items": []
+    },
+    {
+      "name": "Soups",
+      "menu_items": []
+    },
+    {
+      "name": "Beverages",
+      "menu_items": []
+    }
+  ]
+}

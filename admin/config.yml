@@ -1,0 +1,51 @@
+# 
+# This is the updated authentication backend section
+#
+backend:
+  name: github
+  auth_type: pkce
+  repo: FarisStudios/DigranoWebsite # Replace with your GitHub details
+  auth_provider: auth0
+
+#
+# This is the new Auth0 configuration section
+#
+auth0:
+  domain: dev-m4j11mu82gmyipp8.us.auth0.com # Paste your Auth0 Domain here
+  client_id: ASE4yFR4OGrkB6VXOv9ZpBoCnpORC247 # Paste your Auth0 Client ID here
+  audience: "https://api.github.com"
+  
+#
+# The rest of your configuration remains the same
+#
+media_folder: "assets/uploads" 
+public_folder: "/assets/uploads" 
+
+collections:
+  - name: "menu" 
+    label: "Main Menu"
+    folder: "_data" 
+    extension: "json"
+    create: false
+    delete: false
+    editor:
+      preview: false
+    files:
+      - file: "_data/menu.json"
+        label: "Menu Data"
+        name: "menu_data"
+        fields:
+          - label: "Categories"
+            name: "categories"
+            widget: "list"
+            fields:
+              - {label: "Category Name", name: "name", widget: "string"}
+              - label: "Menu Items"
+                name: "menu_items"
+                widget: "list"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Price", name: "price", widget: "string"}
+                  - {label: "Image", name: "image", widget: "image"}
+                  - {label: "Ingredients", name: "ingredients", widget: "text"}
+                  - {label: "Currently Unavailable", name: "unavailable", widget: "boolean", default: false}
