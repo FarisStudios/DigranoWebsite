@@ -954,6 +954,87 @@
     <script src="js/webflowembed684040cab7995662a002de624206-255.0.0.js" type="text/javascript"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+  <script>
+    fetch('/_data/menu.json')
+      .then(response => response.json())
+      .then(data => {
+        const itemTemplate = document.getElementById('menu-item-template');
+
+        // Loop through each category in the data
+        data.categories.forEach(category => {
+          // Create an ID that matches the HTML container
+          const containerId = `Menu-${category.name}-Section`;
+          const menuContainer = document.getElementById(containerId);
+
+          if (menuContainer) {
+            // Add a header for the category
+            const categoryHeader = document.createElement('h2');
+            categoryHeader.textContent = category.name;
+            menuContainer.appendChild(categoryHeader);
+
+            // Loop through each menu item in the current category
+            category.menu_items.forEach(item => {
+              const newMenuItem = itemTemplate.content.cloneNode(true);
+              
+              // Populate the cloned elements with data
+              newMenuItem.querySelector('.image-2').src = item.image;
+              newMenuItem.querySelector('.image-2').alt = item.name;
+              newMenuItem.querySelector('.heading-5').textContent = item.name;
+              newMenuItem.querySelector('.number-price-tag').textContent = item.price;
+              newMenuItem.querySelector('.paragraph-2').textContent = item.ingredients;
+              
+              const unavailableText = newMenuItem.querySelector('.unavailable-item-text');
+              if (item.unavailable) {
+                unavailableText.style.display = 'block';
+              } else {
+                unavailableText.style.display = 'none';
+              }
+              
+              menuContainer.appendChild(newMenuItem);
+            });
+          }
+        });
+      })
+      .catch(error => console.error('Error fetching menu data:', error));
+  </script>     
+
+
+
+
+
+
+<template id="menu-item-template">
+  <div class="collection-item menu-item">
+    <div class="div-block-17">
+      <div class="div-block-24">
+        <img src="" alt="" class="image-2" />
+      </div>
+      <div class="div-block-11">
+        <h1 class="heading-5"></h1>
+        <p class="paragraph-2"></p>
+        <p class="unavailable-item-text">Currently Unavailable</p>
+      </div>
+      <div class="div-block-10">
+        <div class="div-block-12">
+          <div class="number-price-tag"></div>
+          <div class="egp-price-tag">EGP</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+
+
 </body>
+
+
+
+
+
+
+
 
 </html>
