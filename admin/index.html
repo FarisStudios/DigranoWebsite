@@ -5,38 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex" />
   <title>Content Manager</title>
-  
-  <style>
-  /* Force Netlify Identity modal to appear on top */
-  .netlify-identity-widget {
-    z-index: 99999 !important;
-  }
-  
-  .netlify-identity-widget iframe {
-    z-index: 99999 !important;
-  }
-  
-  /* Ensure the overlay is visible */
-  .netlify-identity-widget[open] {
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-</style>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-<div style="padding: 20px; background: red; color: white;">
-    <button onclick="alert('Button clicked!');">Test Button</button>
-</div>
-
-<!-- Include the script that builds the page and powers Decap CMS -->
-<script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-
-<!-- Load Netlify Identity after Decap CMS -->
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-<script>
-alert('Script is running!');
-console.log('Simple test - script loaded');
-</script>
+  <!-- Include the script that builds the page and powers Decap CMS -->
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
 </html>
