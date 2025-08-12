@@ -5,7 +5,7 @@ backend:
   name: github
   auth_type: pkce
   repo: FarisStudios/DigranoWebsite # Replace with your GitHub details
-  
+  auth_provider: auth0
 
 #
 # This is the new Auth0 configuration section
@@ -48,5 +48,4 @@ collections:
                   - {label: "Price", name: "price", widget: "string"}
                   - {label: "Image", name: "image", widget: "image"}
                   - {label: "Ingredients", name: "ingredients", widget: "text"}
-
                   - {label: "Currently Unavailable", name: "unavailable", widget: "boolean", default: false}
