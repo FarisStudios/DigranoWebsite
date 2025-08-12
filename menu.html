@@ -962,6 +962,8 @@
       .then(data => {
         const itemTemplate = document.getElementById('menu-item-template');
 
+          console.log('Template Element:', itemTemplate); 
+
         // Loop through each category in the data
         data.categories.forEach(category => {
           // Create an ID that matches the HTML container
@@ -1038,3 +1040,4 @@
 
 
 </html>
+
