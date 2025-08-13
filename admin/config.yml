@@ -9,7 +9,6 @@ public_folder: "/assets/uploads"
 collections:
   - name: "menu"
     label: "Main Menu"
-    folder: "_data"
     extension: "json"
     create: false
     delete: false
