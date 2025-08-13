@@ -3,11 +3,9 @@ backend:
   repo: FarisStudios/DigranoWebsite
   branch: main
   auth_type: implicit
-  base_url: https://api.github.com
-  auth_endpoint: https://github.com/login/oauth/authorize
 
-# Explicitly disable Netlify services
-publish_mode: simple
+# Remove the base_url and auth_endpoint - they're causing the malformed URL
+# Decap CMS knows the correct GitHub endpoints
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
