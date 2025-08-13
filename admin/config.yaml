@@ -4,9 +4,6 @@ backend:
   branch: main
   auth_type: implicit
 
-# Remove the base_url and auth_endpoint - they're causing the malformed URL
-# Decap CMS knows the correct GitHub endpoints
-
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
