@@ -9,11 +9,6 @@ public_folder: "/assets/uploads"
 collections:
   - name: "menu"
     label: "Main Menu"
-    extension: "json"
-    create: false
-    delete: false
-    editor:
-      preview: false
     files:
       - file: "_data/menu.json"
         label: "Menu Data"
@@ -23,13 +18,26 @@ collections:
             name: "categories"
             widget: "list"
             fields:
-              - {label: "Category Name", name: "name", widget: "string"}
+              - label: "Category Name"
+                name: "name"
+                widget: "string"
               - label: "Menu Items"
                 name: "menu_items"
                 widget: "list"
                 fields:
-                  - {label: "Name", name: "name", widget: "string"}
-                  - {label: "Price", name: "price", widget: "string"}
-                  - {label: "Image", name: "image", widget: "image"}
-                  - {label: "Ingredients", name: "ingredients", widget: "text"}
-                  - {label: "Currently Unavailable", name: "unavailable", widget: "boolean", default: false}
+                  - label: "Name"
+                    name: "name"
+                    widget: "string"
+                  - label: "Price"
+                    name: "price"
+                    widget: "string"
+                  - label: "Image"
+                    name: "image"
+                    widget: "image"
+                  - label: "Ingredients"
+                    name: "ingredients"
+                    widget: "text"
+                  - label: "Currently Unavailable"
+                    name: "unavailable"
+                    widget: "boolean"
+                    default: false
