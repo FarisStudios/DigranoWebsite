@@ -13,9 +13,7 @@
   <script>
     if (window.netlifyIdentity) {
       // Initialize with your specific Netlify site
-      window.netlifyIdentity.init({
-        APIurl: "https://shiny-croissant-b62080.netlify.app/.netlify/identity"
-      });
+      window.netlifyIdentity.init();
       
       window.netlifyIdentity.on("init", user => {
         if (!user) {
