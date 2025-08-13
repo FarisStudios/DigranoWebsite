@@ -2,40 +2,40 @@ backend:
   name: github
   repo: FarisStudios/DigranoWebsite
   branch: main
-  auth_type: implicit
+  client_id: Ov23liaPeIWa2w0ZDdgp # Replace with your actual Client ID from Step 1
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
 collections:
   - name: "menu"
-    label: "Main Menu"
+    label: "Menu"
     files:
       - file: "_data/menu.json"
         label: "Menu Data"
-        name: "menu_data"
+        name: "menu"
         fields:
           - label: "Categories"
             name: "categories"
             widget: "list"
             fields:
               - label: "Category Name"
-                name: "name"
+                name: "name" 
                 widget: "string"
               - label: "Menu Items"
                 name: "menu_items"
                 widget: "list"
                 fields:
-                  - label: "Name"
+                  - label: "Item Name"
                     name: "name"
                     widget: "string"
                   - label: "Price"
-                    name: "price"
+                    name: "price" 
                     widget: "string"
                   - label: "Image"
                     name: "image"
                     widget: "image"
-                  - label: "Ingredients"
+                  - label: "Description"
                     name: "ingredients"
                     widget: "text"
                   - label: "Currently Unavailable"
