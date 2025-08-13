@@ -8,11 +8,15 @@
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-  <!-- Include the script that builds the page and powers Decap CMS -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   
   <script>
     if (window.netlifyIdentity) {
+      // Initialize with your specific Netlify site
+      window.netlifyIdentity.init({
+        APIurl: "https://shiny-croissant-b62080.netlify.app/.netlify/identity"
+      });
+      
       window.netlifyIdentity.on("init", user => {
         if (!user) {
           window.netlifyIdentity.on("login", () => {
