@@ -4,63 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex" />
-  <title>Content beach Manager</title>
+  <title>Content Manager</title>
 </head>
 <body>
   <script src="https://unpkg.com/decap-cms@3.1.10/dist/decap-cms.js"></script>
-  <script>
-    CMS.init({
-      config: {
-        backend: {
-          name: 'github',
-          repo: 'FarisStudios/DigranoWebsite',
-          branch: 'main'
-        },
-        media_folder: 'assets/uploads',
-        public_folder: '/assets/uploads',
-        collections: [
-          {
-            name: 'menu',
-            label: 'Main Menu',
-            extension: 'json',
-            create: false,
-            delete: false,
-            editor: {
-              preview: false
-            },
-            files: [
-              {
-                file: '_data/menu.json',
-                label: 'Menu Data',
-                name: 'menu_data',
-                fields: [
-                  {
-                    label: 'Categories',
-                    name: 'categories',
-                    widget: 'list',
-                    fields: [
-                      {label: 'Category Name', name: 'name', widget: 'string'},
-                      {
-                        label: 'Menu Items',
-                        name: 'menu_items',
-                        widget: 'list',
-                        fields: [
-                          {label: 'Name', name: 'name', widget: 'string'},
-                          {label: 'Price', name: 'price', widget: 'string'},
-                          {label: 'Image', name: 'image', widget: 'image'},
-                          {label: 'Ingredients', name: 'ingredients', widget: 'text'},
-                          {label: 'Currently Unavailable', name: 'unavailable', widget: 'boolean', default: false}
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    });
-  </script>
 </body>
 </html>
