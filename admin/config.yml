@@ -1,2 +1,49 @@
 backend:
-  name: test-repo
+  name: github
+  repo: FarisStudios/DigranoWebsite
+  branch: main
+  auth_type: implicit
+  base_url: https://api.github.com
+  auth_endpoint: https://github.com/login/oauth/authorize
+
+# Explicitly disable Netlify services
+publish_mode: simple
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "menu"
+    label: "Main Menu"
+    files:
+      - file: "_data/menu.json"
+        label: "Menu Data"
+        name: "menu_data"
+        fields:
+          - label: "Categories"
+            name: "categories"
+            widget: "list"
+            fields:
+              - label: "Category Name"
+                name: "name"
+                widget: "string"
+              - label: "Menu Items"
+                name: "menu_items"
+                widget: "list"
+                fields:
+                  - label: "Name"
+                    name: "name"
+                    widget: "string"
+                  - label: "Price"
+                    name: "price"
+                    widget: "string"
+                  - label: "Image"
+                    name: "image"
+                    widget: "image"
+                  - label: "Ingredients"
+                    name: "ingredients"
+                    widget: "text"
+                  - label: "Currently Unavailable"
+                    name: "unavailable"
+                    widget: "boolean"
+                    default: false
