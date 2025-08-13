@@ -2,6 +2,7 @@ backend:
   name: github
   repo: FarisStudios/DigranoWebsite
   branch: main
+  client_id: Ov23liaPeIWa2w0ZDdgp  # From OAuth app
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
