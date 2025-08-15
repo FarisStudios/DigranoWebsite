@@ -2527,7 +2527,7 @@ textarea.w-input, textarea.w-select {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  max-width: 46%;
+  max-width: 100%;
   display: flex;
 }
 
@@ -2546,7 +2546,7 @@ textarea.w-input, textarea.w-select {
             text-transform: uppercase;
             transition: 0.5s;
             background-size: 200% auto;
-            color: white;            
+            color: white;    
             
             border-radius: 10px;
             display: block;
@@ -2566,6 +2566,31 @@ textarea.w-input, textarea.w-select {
   font-size: 72px;
   line-height: 100%;
 }
+
+
+.or-special {
+  color: #fff;
+  font-family: "Playfair Display", Helvetica Neue, serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 40px;
+  margin: -30px 0 0 0;
+  line-height: 100%;
+}
+
+/*.special-border{
+  border:3px solid #E89C1E ;
+  padding: 5px 10px;
+}
+*/
+
+.special-fancy-font{
+  font-family: "Playfair Display", Helvetica Neue, serif;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline #E89C1E 2px ;
+}
+
 
 .hero-split {
   grid-column-gap: 28px;
@@ -4192,6 +4217,137 @@ textarea.w-input, textarea.w-select {
   }
 
 }
+
+
+
+
+/* Duo-Hero */
+
+        .duo-main-container {
+            margin: 0 auto;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            padding: 2rem;
+        }
+
+        .duoadjust{
+          width: 100%;
+          padding: 0 100px;
+          max-width: 100%;
+        }
+
+        .duo-offers-container {
+            display: flex;
+            width:100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: stretch;
+            gap: 2rem;
+        }
+
+        .duo-offer-block {
+            flex: 1;
+            padding: 3rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .duo-offer-block:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 25px -5px rgba(0, 0, 0, 0.15), 0 6px 10px -3px rgba(0, 0, 0, 0.08);
+        }
+
+        .duo-offer-block h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.25rem;
+            font-style: italic;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.05em;
+        }
+
+        .duo-offer-block p {
+            text-align: center;
+            font-size: 1.125rem;
+            line-height: 1.8;
+            font-weight: 400;
+        }
+
+        .duo-offer-block span {
+            font-size: 2.5rem;
+            font-weight: 700;
+            display: block;
+            margin-top: 1rem;
+            line-height: 1.2;
+        }
+        
+        /* Specific offer block styles */
+        .duo-offer-block.duo-offer-1 {
+            /* background: linear-gradient(135deg, #7A0C08, #CD110C);  Updated vibrant gradient */
+            background:#b62520 ;
+            color: #fcfcfc;
+        }
+
+        .duo-offer-block.duo-offer-2 {
+            background: linear-gradient(135deg, #FFD700, #FFA500); /* Updated vibrant gradient */
+            color: #2c3e50;
+        }
+
+        .duo-offer-block.duo-offer-1 h2,
+        .duo-offer-block.duo-offer-1 span {
+            color: #fff;
+        }
+        
+        .duo-offer-block.duo-offer-2 h2,
+        .duo-offer-block.duo-offer-2 span {
+            color: #2c3e50;
+        }
+
+        .duo-offer-block.duo-offer-1 u {
+            color: #FFD700;
+        }
+
+        .duo-cta-button {
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #fff;
+            background-color: #3498db;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .duo-cta-button:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+        
+        @media (min-width: 768px) {
+            .duo-offers-container {
+                flex-direction: row;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
 
 #w-node-a2446218-75de-2a22-dba7-dd1c918c21c0-2280a21b, #w-node-_617c8518-118e-ef25-e3ae-57f60e8a9ba4-2280a21b, #w-node-_56be7411-0d21-74da-ebd4-41821183ddd6-2280a21b, #w-node-ea094fdf-0bb7-7d89-a91b-0ca349556c66-2280a21b, #w-node-_800a591f-d955-103d-dee8-c94cf58cd1bd-2280a21b {
   grid-area: span 1 / span 1 / span 1 / span 1;
