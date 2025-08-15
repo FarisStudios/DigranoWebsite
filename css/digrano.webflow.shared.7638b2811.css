@@ -4251,6 +4251,7 @@ textarea.w-input, textarea.w-select {
 
         .duo-split{
           display: flex;
+          flex-direction: row;
           justify-content: center;
           align-items: stretch;
           gap: 2rem;
