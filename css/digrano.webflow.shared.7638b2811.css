@@ -2590,6 +2590,7 @@ textarea.w-input, textarea.w-select {
   font-style: italic;
   text-decoration: underline #E89C1E 2px ;
   font-size: 30px ;
+  line-height: 33px;
 }
 
 
@@ -4222,6 +4223,7 @@ textarea.w-input, textarea.w-select {
 
 
 
+
 /* Duo-Hero */
 
         .duo-main-container {
@@ -4246,6 +4248,14 @@ textarea.w-input, textarea.w-select {
             align-items: stretch;
             gap: 2rem;
         }
+
+        .duo-split{
+          display: flex;
+          justify-content: center;
+          align-items: stretch;
+          gap: 2rem;
+        }
+
 
         .duo-offer-block {
             flex: 1;
@@ -4291,8 +4301,8 @@ textarea.w-input, textarea.w-select {
         
         /* Specific offer block styles */
         .duo-offer-block.duo-offer-1 {
-            /* background: linear-gradient(135deg, #7A0C08, #CD110C);  Updated vibrant gradient */
-            background:#b62520 ;
+           background: linear-gradient(135deg, #b62520, #CD110C);
+
             color: #fcfcfc;
         }
 
@@ -4337,6 +4347,22 @@ textarea.w-input, textarea.w-select {
         @media (min-width: 768px) {
             .duo-offers-container {
                 flex-direction: row;
+            }
+        }
+
+
+                
+        @media screen and (max-width: 450px) {
+            .duo-split{
+              flex-direction: column;
+            }
+
+            .duo-offer-block.duo-offer-1 h2{
+              font-size: 1.5rem;
+            }
+
+            .duo-offer-block p{
+              font-size: 1rem;
             }
         }
 
