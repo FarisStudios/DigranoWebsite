@@ -5,6 +5,155 @@ html {
   scroll-behavior: auto;
 }
 
+
+/*Menu Collection Items*/
+
+
+        .collection-item {
+            background-color: #fff;
+            border-radius: 7px;
+            flex-flow: column;
+            width: 25vw;
+            height: 100%;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-left: 0;
+            padding-right: 0;
+            transition: box-shadow .1s cubic-bezier(.55, .085, .68, .53);
+            display: flex;
+            box-shadow: 0 2px 5px #0003;
+        }
+
+        .collection-item:hover {
+            box-shadow: 0 2px 5px 2px #0003;
+        }
+
+        .collection-item.menu-item {
+            float: none;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            display: block;
+            position: relative;
+        }
+
+        /* --- THE CHANGE STARTS HERE --- */
+        .div-block-17 {
+            border-radius: 0;
+            flex-flow: column;
+            width: auto;
+            height: auto;
+            margin-left: 0;
+            margin-right: 0;
+            display: flex;
+            flex-direction: column; /* Ensure it's a column layout */
+            height: 100%; /* Important for flex-grow to work */
+        }
+        
+        .div-block-11 {
+            height: Auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            flex-grow: 1; /* This is the key change: it makes this div take up all available space */
+        }
+        
+        .div-block-12 {
+            grid-column-gap: 5px;
+            grid-row-gap: 5px;
+            flex-flow: row;
+            width: 50%;
+            display: flex;
+            align-items: baseline; /* This is the fix to align the number and currency horizontally */
+        }
+        /* --- THE CHANGE ENDS HERE --- */
+
+        .image-2 {
+            object-fit: cover;
+            background-color: gray;
+            border-radius: 7px 7px 0 0;
+            width: 100%;
+            max-width: none;
+            height: 100%;
+            display: block;
+            overflow: clip;
+        }
+        
+        .div-block-24 {
+            width: 100%;
+            height: 200px; /* Added for example display */
+        }
+
+        .heading-5 {
+            font-family: Varela Round, sans-serif;
+            font-size: 29px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .paragraph-2 {
+            color: #4b5563;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 16px;
+        }
+
+        .div-block-10 {
+            justify-content: flex-start;
+            align-items: flex-end;
+            height: Auto;
+            padding: 20px;
+            display: flex;
+        }
+
+        .number-price-tag {
+            color: var(--mainred);
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .egp-price-tag {
+            color: var(--mainred);
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+
+
+        
+        .menu-item-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+            border-radius: 7px 7px 0 0;
+            pointer-events: none;
+        }
+
+        .menu-item-overlay-text {
+            color: #7a0c08;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-align: center;
+            font-family: Varela Round, sans-serif;
+        } 
+
+
+
+/*Menu Collection item related*/
+
+
+
+
+
+
+
+
+
 .announcment-bar {
   background-color: #570805;
   color: white;
@@ -2754,70 +2903,7 @@ textarea.w-input, textarea.w-select {
   display: flex;
 }
 
-.image-2 {
-  object-fit: cover;
-  background-color: gray;
-  border-radius: 7px 7px 0 0;
-  width: 100%;
-  max-width: none;
-  height: 100%;
-  display: block;
-  overflow: clip;
-}
 
-.collection-item {
-  background-color: #fff;
-  border-radius: 7px;
-  flex-flow: column;
-  width: 25vw;
-  height: 100%;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-left: 0;
-  padding-right: 0;
-  transition: box-shadow .1s cubic-bezier(.55, .085, .68, .53);
-  display: flex;
-  box-shadow: 0 2px 5px #0003;
-}
-
-.collection-item:hover {
-  box-shadow: 0 2px 5px 2px #0003;
-}
-
-.collection-item.menu-item {
-  float: none;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  display: block;
-  position: relative;
-}
-
-.paragraph-2 {
-  color: #4b5563;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 16px;
-}
-
-.div-block-10 {
-  justify-content: flex-start;
-  align-items: flex-end;
-  height: Auto;
-  padding: 20px;
-  display: flex;
-}
-
-.number-price-tag {
-  color: var(--mainred);
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.div-block-11 {
-  height: Auto;
-  padding-left: 10px;
-  padding-right: 10px;
-}
 
 .collection-list-wrapper {
   grid-column-gap: 7px;
@@ -2830,19 +2916,6 @@ textarea.w-input, textarea.w-select {
   display: block;
 }
 
-.egp-price-tag {
-  color: var(--mainred);
-  font-size: 17px;
-  font-weight: 700;
-}
-
-.div-block-12 {
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-  flex-flow: row;
-  width: 50%;
-  display: flex;
-}
 
 .div-block-13 {
   justify-content: flex-end;
@@ -2878,10 +2951,6 @@ textarea.w-input, textarea.w-select {
   display: flex;
 }
 
-.heading-5 {
-  font-family: Varela Round, sans-serif;
-  font-size: 29px;
-}
 
 .unavailable-item-text{
   font-family: Varela Round, sans-serif;
@@ -3166,15 +3235,6 @@ textarea.w-input, textarea.w-select {
   display: grid;
 }
 
-.div-block-17 {
-  border-radius: 0;
-  flex-flow: column;
-  width: auto;
-  height: auto;
-  margin-left: 0;
-  margin-right: 0;
-  display: flex;
-}
 
 .collection-list-wrapper-2 {
   grid-column-gap: 16px;
@@ -3460,6 +3520,10 @@ textarea.w-input, textarea.w-select {
 }
 
 .div-block-24 {
+      position: relative;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
   height: 30VH;
 }
 
@@ -4366,13 +4430,6 @@ textarea.w-input, textarea.w-select {
               font-size: 1rem;
             }
         }
-
-
-
-
-
-
-
 
 
 
