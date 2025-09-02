@@ -3311,7 +3311,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .section-2.topadjustments {
-  margin-top: 69px;
+  margin-top: 0px;
 }
 
 .button-3 {
@@ -4518,3 +4518,83 @@ textarea.w-input, textarea.w-select {
 #w-node-a2446218-75de-2a22-dba7-dd1c918c21c0-2280a21b, #w-node-_617c8518-118e-ef25-e3ae-57f60e8a9ba4-2280a21b, #w-node-_56be7411-0d21-74da-ebd4-41821183ddd6-2280a21b, #w-node-ea094fdf-0bb7-7d89-a91b-0ca349556c66-2280a21b, #w-node-_800a591f-d955-103d-dee8-c94cf58cd1bd-2280a21b {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
+
+
+
+        .language-selector-section {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 20vh;
+            padding: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: row; /* Buttons are now side-by-side on all screen sizes */
+            gap: 10px;
+            width: 100%;
+            max-width: 600px;
+            justify-content: space-around;
+        }
+
+        .lang-button {
+            width: 30%;
+            padding: 1rem 0.5rem;
+            background-color: #c42b2b;
+            color: white;
+            /*font-size: 2rem; */
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            border: none;
+            border-radius: 9999px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .lang-button:hover {
+            background-color: #a32222;
+        }
+
+.playfair-font{
+  font-family: "Playfair Display", Helvetica Neue, serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.arabic-font{
+  font-family: "Lalezar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+        /* Adjust font size for larger screens */
+        @media (min-width: 768px) {
+            .lang-button {
+                font-size: 2rem;
+            }
+        }
+
+
+        
+        @media screen and (max-width: 991px) {
+  
+  .lang-button{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  
+    .lang-button{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  
+            .lang-button {
+              font-size: 1rem;}
+    }
