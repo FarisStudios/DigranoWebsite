@@ -2639,7 +2639,8 @@ textarea.w-input, textarea.w-select {
 
 
 .hero-wrapper {
-      background-image: url(../special-images/FirinPic.png);
+      /* background-image: url(../special-images/FirinPic.png); */
+      background-color: var(--mainred);
     background-size: cover;
   display: flex;
   flex-direction: row;
@@ -2659,7 +2660,7 @@ textarea.w-input, textarea.w-select {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #00000072;
+  background-color: #00000000;
   padding: 150px 40px;
 }
 
@@ -2714,7 +2715,7 @@ textarea.w-input, textarea.w-select {
 .checkers-container{
   width: 100%;
   height:  auto;
-  display: none;
+  
 }
 
 .checkers-divider{
@@ -3709,7 +3710,8 @@ textarea.w-input, textarea.w-select {
   }
 
   .hero-wrapper {
-    background-image: url(../special-images/FirinPic.png);
+    /* background-image: url(../special-images/FirinPic.png); */
+    background-color: var(--mainred);
     background-size: cover;
     flex-direction: column;
     justify-content: flex-start;
