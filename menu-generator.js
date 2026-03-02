@@ -47,7 +47,7 @@ function createPizzaPriceHTML(product) {
                 </div>
             </div>
             <div class="price-chip combo-chip">
-                <div class="chip-label">Classico<br>Combo</div>
+                <div class="chip-label">Classico<br>+ Salad</div>
                 <div class="chip-amount">
                     <span class="number-price-tag">${product.priceClassicoCombo}</span>
                     <span class="egp-price-tag">EGP</span>
