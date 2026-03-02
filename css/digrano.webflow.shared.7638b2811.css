@@ -6,6 +6,82 @@ html {
 }
 
 
+
+
+/* ========= Dynamic Menu Filter Styles ========= */
+
+/* Active filter button state */
+.button-3.active-filter {
+    background-color: var(--accentyellow);
+    color: var(--mainred);
+    border-color: var(--mainred);
+    font-weight: 600;
+    transform: scale(1.05);
+}
+
+/* Smooth transitions for sections */
+.menupizzasection,
+.menupastasection,
+.menusaladsection,
+.menusoupssection,
+.menubeveragessection,
+.menudessertssection {
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Item counter (optional) */
+.filter-count {
+    display: inline-block;
+    background-color: var(--accentyellow);
+    color: var(--mainred);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-family: Varela Round, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/* Improve menu grid for 3 columns */
+@media screen and (min-width: 992px) {
+    .menu-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+}
+
+/* 2 columns on tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .menu-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* 1 column on mobile */
+@media screen and (max-width: 767px) {
+    .menu-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/* English name styling */
+.eng-menu-name {
+    color: #6b7280;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+/* Single price layout (for non-pizza items) */
+.single-price .div-block-12 {
+    justify-content: center;
+}
+
+
+
 /*Menu Collection Items*/
 
 
@@ -54,6 +130,7 @@ html {
             padding-left: 10px;
             padding-right: 10px;
             flex-grow: 1; /* This is the key change: it makes this div take up all available space */
+            border-bottom: #0000001a solid 1px;
         }
         
         .div-block-12 {
@@ -2488,7 +2565,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .nav-menu-2 {
-  grid-column-gap: 30px;
+  grid-column-gap: 10px;
   grid-row-gap: 0%;
   justify-content: space-between;
   align-items: center;
@@ -2639,9 +2716,10 @@ textarea.w-input, textarea.w-select {
 
 
 .hero-wrapper {
-      /* background-image: url(../special-images/FirinPic.png); */
-      background-color: var(--mainred);
+    background-image: url(../special-images/FirinPic.png);
+    background-color: var(--mainred);
     background-size: cover;
+  box-shadow: inset 0 0 0 1000px #380503aa;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -4124,10 +4202,24 @@ textarea.w-input, textarea.w-select {
   }
 }
 
+.hide-in-desktop {
+  display: none;
+}
+
+/* Mobile Styles */
+
 @media screen and (max-width: 479px) {
 
+  .hide-in-mobile{
+    display: none;
+  }
+
+  .hide-in-desktop {
+  display: block;
+  }
+
   .navbar-brand {
-    width: auto;
+    width: 50%;
   }
 
   .heading-special{
@@ -4160,7 +4252,7 @@ textarea.w-input, textarea.w-select {
   .div-block {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-top: 10px;
     padding-left: 10px;
@@ -4521,7 +4613,15 @@ textarea.w-input, textarea.w-select {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
+/* Language Selector(S) */
 
+.mini-lang-switch{
+  width: 30px; 
+  height: 30px;
+  background-color:#c42b2b;
+  justify-content: center;
+  border-radius: 100%;
+}
 
         .language-selector-section {
             
