@@ -415,5 +415,4 @@ const menuProducts = {
             available: true
         }
     ]
-
 };
