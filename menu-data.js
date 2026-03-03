@@ -271,7 +271,7 @@ const menuProducts = {
             ingredientsArabic: 'صلصة طماطم + جبنة بوراتا + بيستو + جبنة بارميزان',
             price: 300,
             image: 'images/pasta/Halfsize/BurrataPasta2.jpg',
-            available: true
+            available: false
         },
         {
             id: 'pasta-010',
@@ -415,4 +415,5 @@ const menuProducts = {
             available: true
         }
     ]
+
 };
