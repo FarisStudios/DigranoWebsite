@@ -48,6 +48,7 @@
     border-color: var(--highlight-yellow);
     background: rgba(245, 200, 66, 0.08);
     transform: translateY(-2px);
+    display: none;
 }
 
 /* ── Chip label (size name) ── */
