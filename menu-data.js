@@ -241,17 +241,6 @@ const menuProducts = {
             available: true
         },
         {
-            id: 'pasta-007',
-            nameItalian: 'Pasta alle verdure',
-            nameEnglish: 'Vegetable Pasta',
-            nameArabic: 'باستا خضار',
-            ingredients: 'Carrot + Bell peppers + Zucchini + Mushroom + Onion + Olives',
-            ingredientsArabic: 'جزر + فلفل الوان + كوسا + مشروم + زيتون + بصل',
-            price: 225,
-            image: 'images/pasta/Halfsize/PastaAllaVerdure.jpg',
-            available: true
-        },
-        {
             id: 'pasta-008',
             nameItalian: 'Pasta al tartufo',
             nameEnglish: 'Truffle Pasta',
@@ -296,17 +285,6 @@ const menuProducts = {
             ingredientsArabic: 'صلصة سيزر + كابوتشا + كريتون ( عيش محمص) + جبنة بارميزان',
             price: 150,
             image: 'https://cdn.prod.website-files.com/684040cab7995662a002de62/68600f321caa887d5c637634_CesareClassico2.png',
-            available: true
-        },
-        {
-            id: 'salad-002',
-            nameItalian: 'Rucola Insalata',
-            nameEnglish: 'Rocca Salad',
-            nameArabic: 'سلطة ريكولا',
-            ingredients: 'Rocca + Parmesan cheese + Cherry Tomatoes + Olive Oil',
-            ingredientsArabic: 'جرجير + جبنة بارميزان + زيت زيتون  + طماطم شيري',
-            price: 125,
-            image: 'images/Salad/RoccaSalata-HalfSize.jpg',
             available: true
         },
         {
@@ -365,17 +343,6 @@ const menuProducts = {
             ingredientsArabic: 'شوربة الكريمة اللذيذة مع جمبري طازج',
             price: 175,
             image: 'images/soup/Halfsize/ShrimpSoup.jpg',
-            available: true
-        },
-        {
-            id: 'soup-004',
-            nameItalian: 'Zuppa di verdure',
-            nameEnglish: 'Vegetable Soup',
-            nameArabic: 'شوربة خضار',
-            ingredients: 'Zucchini + Carrot + Celery + Onion + Potato',
-            ingredientsArabic: 'كوسة + جزر + كرفس + بصل + بطاطس',
-            price: 50,
-            image: 'images/soup/Halfsize/VerdureSoup.jpg',
             available: true
         },
         {
