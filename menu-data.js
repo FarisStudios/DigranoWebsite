@@ -181,7 +181,7 @@ const menuProducts = {
             nameArabic: 'باستا الفريدو فراخ',
             ingredients: 'White sauce + Chicken + Mushroom + Parmesan cheese',
             ingredientsArabic: 'صوص الفريدو + فراخ متبل + مشروم + بارميجان',
-            price: 320,
+            price: 340,
             image: 'https://cdn.prod.website-files.com/684040cab7995662a002de62/685ff66ffa89a4b1b8252200_%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D8%AF%D9%88%20%D8%AF%D8%AC%D8%A7%D8%AC%20%D9%88%20%D9%85%D8%B4%D8%B1%D9%88%D9%85.jpg',
             available: true
         },
