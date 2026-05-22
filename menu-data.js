@@ -410,7 +410,7 @@ schiacciata: [
         ingredients: 'Similar to the Italian Caprese, but with our special touch. Roasted tomatoes served with rich pesto, Italian cheese, and fresh arugula.',
         ingredientsArabic: 'قريبة من الكبريزي الايطالي لكن بلمساتنا الخاصة من الطماطم المشوية مع بيستو الريحان الغني والجبنه الايطالية مع الجرجير الفريش في خبز السوردو',
         price: 350,
-        image: 'images/schiacciata/Pomodoro.jpeg',
+        image: 'images/schiacciata/pomodoro.jpeg',
         available: true
     },
     {
@@ -421,7 +421,7 @@ schiacciata: [
         ingredients: 'A sensational profile, Grilled zucchini and fresh sautéed mushrooms with Italian cheese, a luxurious touch of truffle, and arugula.',
         ingredientsArabic: 'النكهة العميقة من الكوسا المشوية مع المشروم الفريش السوتيه مع الجبنة الايطالية بلمسة الترافيل الفاخر مع الجرجير في خبز السوردو',
         price: 350,
-        image: 'images/schiacciata/Trufallo.jpeg',
+        image: 'images/schiacciata/trufallo.jpeg',
         available: true
     },
     {
