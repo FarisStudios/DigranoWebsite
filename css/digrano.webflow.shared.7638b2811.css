@@ -24,6 +24,7 @@ html {
 .menupastasection,
 .menusaladsection,
 .menusoupssection,
+.menuschiacciatasection,
 .menubeveragessection,
 .menudessertssection {
     transition: opacity 0.3s ease-in-out;
@@ -3505,6 +3506,16 @@ textarea.w-input, textarea.w-select {
 }
 
 .menusoupssection {
+  background-color: #fff;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+.menuschiacciatasection {
   background-color: #fff;
   flex-flow: column;
   justify-content: center;
