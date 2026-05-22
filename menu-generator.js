@@ -85,6 +85,7 @@ function getCategorySection(category) {
         'pasta': '.menupastasection',
         'salads': '.menusaladsection',
         'soup': '.menusoupssection',
+        'schiacciata': '.menuschiacciatasection',
         'beverages': '.menubeveragessection'
     };
     
@@ -124,13 +125,14 @@ function extractCategoryFromHref(href) {
     if (href.includes('Pasta')) return 'pasta';
     if (href.includes('Salad')) return 'salads';
     if (href.includes('Soups')) return 'soup';
+    if (href.includes('Schiacciata')) return 'schiacciata';
     if (href.includes('Beverages')) return 'beverages';
     return 'pizza';
 }
 
 function filterProducts(category) {
     const sections = document.querySelectorAll(
-        '.menupizzasection, .menupastasection, .menusaladsection, .menusoupssection, .menubeveragessection'
+        '.menupizzasection, .menupastasection, .menusaladsection, .menusoupssection, .menuschiacciatasection, .menubeveragessection'
     );
     sections.forEach(section => {
         section.style.display = 'none';
