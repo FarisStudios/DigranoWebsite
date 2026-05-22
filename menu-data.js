@@ -431,8 +431,19 @@ schiacciata: [
         nameArabic: '7.بوسكارو',
         ingredients: 'The Crown Jewel, Salami paired with grilled pineapple, creamy Stracciatella cheese, and basil pesto.',
         ingredientsArabic: 'تجربة فاخرة وخارجة عن المالوف من سلامي مع الاناناس المشوي وجبنة الستراتاتشيلا وبيستو الريحان في خبز السوردو، و تستحق لقب تاج السندوتشات',
-        price: 275,
-        image: 'images/schiacciata/Loranzo.jpeg',
+        price: 235,
+        image: 'images/schiacciata/Boscaro.png',
+        available: true
+    },
+    {
+        id: 'schiacciata-008',
+        nameItalian: '8.Dolcero',
+        nameEnglish: '',
+        nameArabic: '8.دولتشيرو',
+        ingredients: 'Layers of smooth, creamy stracciatella cheese, paired with dried raisins, the crunch of toasted almonds, and bananas, finished with a touch of rich chocolate that melts with every bite.',
+        ingredientsArabic: 'طبقات من جبنة الستراتشيلا الكريمية الناعمة، مع الزبيب المجفف، وقرمشة اللوز المحمص، والموز تنتهي بلمسة شوكولاتة غنية تذوب بكل قضمة',
+        price: 235,
+        image: 'images/schiacciata/Dolcero.png',
         available: true
     }
 ],
