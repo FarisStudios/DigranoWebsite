@@ -446,7 +446,7 @@ schiacciata: [
             ingredients: '',
             ingredientsArabic: '',
             price: 50,
-            image: 'images/SparklingWater.jpg',
+            image: 'images/Drinks/Halfsize-Unbranded-SparklingWater.jpg',
             available: true
         },
         {
@@ -458,6 +458,17 @@ schiacciata: [
             ingredientsArabic: '',
             price: 30,
             image: 'images/Drinks/Halfsize-Vcola.png',
+            available: true
+        },
+        {
+            id: 'bev-003',
+            nameItalian: 'Tiramisu',
+            nameEnglish: '',
+            nameArabic: 'تيراميسو',
+            ingredients: '',
+            ingredientsArabic: '',
+            price: 195,
+            image: 'images/Drinks/Halfsize-Tiramisu.jpg',
             available: true
         }
     ]
