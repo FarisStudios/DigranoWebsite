@@ -364,7 +364,7 @@ schiacciata: [
         nameEnglish: '',
         nameArabic: '1.نيرو',
         ingredients: 'For lovers of bold flavors, Salami paired with sautéed mushrooms, premium Italian cheese, and a touch of truffle.',
-        ingredientsArabic: 'لعشاق الطعم الجريء بيف بيكون المدخن مع مشروم سوتيه والجبنه الايطاليه الفاخره بلمسه ترافيل في خبز السوردو',
+        ingredientsArabic: 'لعشاق الطعم الجريء سلامي مع مشروم سوتيه والجبنه الايطاليه الفاخره بلمسه ترافيل في خبز السوردو',
         price: 195,
         image: 'images/schiacciata/Nero.png',
         available: true
@@ -375,7 +375,7 @@ schiacciata: [
         nameEnglish: '',
         nameArabic: '2.برستيجيو',
         ingredients: 'A taste that commands respect from the very first bite, Salami with Italian cheese, premium pesto, and the fresh crunch of arugula.',
-        ingredientsArabic: 'طعم يفرض نفسه من اول قطمة من البيف بيكون المدخن مع الجبنة الايطالية والبيستو الفاخر  مع قرمشة الجرجير في خبز السوردو',
+        ingredientsArabic: 'طعم يفرض نفسه من اول قطمة من سلامي مع الجبنة الايطالية والبيستو الفاخر  مع قرمشة الجرجير في خبز السوردو',
         price: 195,
         image: 'images/schiacciata/Prestigio.png',
         available: true
@@ -430,7 +430,7 @@ schiacciata: [
         nameEnglish: '',
         nameArabic: '7.بوسكارو',
         ingredients: 'The Crown Jewel, Salami paired with refreshing strawberries, creamy Italian Burrata cheese, and basil pesto.',
-        ingredientsArabic: 'تجربة فاخرة وخارجة عن المالوف من البيف بيكون المدخن مع الفراولة المنعشة وجبنة البراتة الايطالية الكريمية وبيستو الريحان في خبز السوردو، و تستحق لقب تاج السندوتشات',
+        ingredientsArabic: 'تجربة فاخرة وخارجة عن المالوف من سلامي مع الفراولة المنعشة وجبنة البراتة الايطالية الكريمية وبيستو الريحان في خبز السوردو، و تستحق لقب تاج السندوتشات',
         price: 275,
         image: 'images/schiacciata/Loranzo.jpeg',
         available: true
