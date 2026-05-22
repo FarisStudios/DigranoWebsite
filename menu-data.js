@@ -426,9 +426,9 @@ schiacciata: [
     },
     {
         id: 'schiacciata-007',
-        nameItalian: '7.Loranzo',
+        nameItalian: '7.Boscaro',
         nameEnglish: '',
-        nameArabic: 'لورانزو',
+        nameArabic: 'بوسكارو',
         ingredients: 'The Crown Jewel, Smoked beef bacon paired with refreshing strawberries, creamy Italian Burrata cheese, and basil pesto.',
         ingredientsArabic: 'تجربة فاخرة وخارجة عن المالوف من البيف بيكون المدخن مع الفراولة المنعشة وجبنة البراتة الايطالية الكريمية وبيستو الريحان في خبز السوردو، و تستحق لقب تاج السندوتشات',
         price: 275,
