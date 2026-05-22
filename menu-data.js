@@ -429,8 +429,8 @@ schiacciata: [
         nameItalian: '7.Boscaro',
         nameEnglish: '',
         nameArabic: '7.بوسكارو',
-        ingredients: 'The Crown Jewel, Salami paired with refreshing strawberries, creamy Italian Burrata cheese, and basil pesto.',
-        ingredientsArabic: 'تجربة فاخرة وخارجة عن المالوف من سلامي مع الفراولة المنعشة وجبنة البراتة الايطالية الكريمية وبيستو الريحان في خبز السوردو، و تستحق لقب تاج السندوتشات',
+        ingredients: 'The Crown Jewel, Salami paired with grilled pineapple, creamy Italian Burrata cheese, and basil pesto.',
+        ingredientsArabic: 'تجربة فاخرة وخارجة عن المالوف من سلامي مع الاناناس المشوي وجبنة البراتة الايطالية الكريمية وبيستو الريحان في خبز السوردو، و تستحق لقب تاج السندوتشات',
         price: 275,
         image: 'images/schiacciata/Loranzo.jpeg',
         available: true
