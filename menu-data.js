@@ -360,8 +360,8 @@ const menuProducts = {
 schiacciata: [
     {
         id: 'schiacciata-001',
-        nameItalian: 'Nero',
-        nameEnglish: 'Nero',
+        nameItalian: '1.Nero',
+        nameEnglish: '',
         nameArabic: 'نيرو',
         ingredients: 'For lovers of bold flavors, Smoked beef bacon paired with sautéed mushrooms, premium Italian cheese, and a touch of truffle.',
         ingredientsArabic: 'لعشاق الطعم الجريء بيف بيكون المدخن مع مشروم سوتيه والجبنه الايطاليه الفاخره بلمسه ترافيل في خبز السوردو',
@@ -371,8 +371,8 @@ schiacciata: [
     },
     {
         id: 'schiacciata-002',
-        nameItalian: 'Prestigio',
-        nameEnglish: 'Prestigio',
+        nameItalian: '2.Prestigio',
+        nameEnglish: '',
         nameArabic: 'برستيجيو',
         ingredients: 'A taste that commands respect from the very first bite, Smoked beef bacon with Italian cheese, premium pesto, and the fresh crunch of arugula.',
         ingredientsArabic: 'طعم يفرض نفسه من اول قطمة من البيف بيكون المدخن مع الجبنة الايطالية والبيستو الفاخر  مع قرمشة الجرجير في خبز السوردو',
@@ -382,8 +382,8 @@ schiacciata: [
     },
     {
         id: 'schiacciata-003',
-        nameItalian: 'Armonia',
-        nameEnglish: 'Armonia',
+        nameItalian: '3.Armonia',
+        nameEnglish: '',
         nameArabic: 'ارمونيا',
         ingredients: 'A light Italian composition with a harmonious flavor profile, Smoked turkey paired with crunchy arugula and rich pesto.',
         ingredientsArabic: 'تركيبة ايطالية خفيفة بنكهة متناغمة من التيركي المدخن مع الجرجير المقرمش وبيستو الريحان الغني في خبز السوردو',
@@ -393,8 +393,8 @@ schiacciata: [
     },
     {
         id: 'schiacciata-004',
-        nameItalian: 'Fantasia',
-        nameEnglish: 'Fantasia',
+        nameItalian: '4.Fantasia',
+        nameEnglish: '',
         nameArabic: 'فانتازيا',
         ingredients: 'An exceptional sensation - Smoked turkey with Italian cheese, arugula, and fresh tomatoes, finished with a signature touch of truffle.',
         ingredientsArabic: 'الاحساس الاستثنائي من التيركي المدخن مع الجبنة الايطالية والجرجير والطماطم الطازج بلمسه الترافيل في خبز السوردو',
@@ -404,8 +404,8 @@ schiacciata: [
     },
     {
         id: 'schiacciata-005',
-        nameItalian: 'Pomodoro',
-        nameEnglish: 'Pomodoro',
+        nameItalian: '5.Pomodoro',
+        nameEnglish: '',
         nameArabic: 'بومودورو',
         ingredients: 'Similar to the Italian Caprese, but with our special touch. Roasted tomatoes served with rich pesto, Italian cheese, and fresh arugula.',
         ingredientsArabic: 'قريبة من الكبريزي الايطالي لكن بلمساتنا الخاصة من الطماطم المشوية مع بيستو الريحان الغني والجبنه الايطالية مع الجرجير الفريش في خبز السوردو',
@@ -415,8 +415,8 @@ schiacciata: [
     },
     {
         id: 'schiacciata-006',
-        nameItalian: 'Trufullo',
-        nameEnglish: 'Trufullo',
+        nameItalian: '6.Trufullo',
+        nameEnglish: '',
         nameArabic: 'ترافولو',
         ingredients: 'A sensational profile, Grilled zucchini and fresh sautéed mushrooms with Italian cheese, a luxurious touch of truffle, and arugula.',
         ingredientsArabic: 'النكهة العميقة من الكوسا المشوية مع المشروم الفريش السوتيه مع الجبنة الايطالية بلمسة الترافيل الفاخر مع الجرجير في خبز السوردو',
@@ -426,8 +426,8 @@ schiacciata: [
     },
     {
         id: 'schiacciata-007',
-        nameItalian: 'Loranzo',
-        nameEnglish: 'Loranzo',
+        nameItalian: '7.Loranzo',
+        nameEnglish: '',
         nameArabic: 'لورانزو',
         ingredients: 'The Crown Jewel, Smoked beef bacon paired with refreshing strawberries, creamy Italian Burrata cheese, and basil pesto.',
         ingredientsArabic: 'تجربة فاخرة وخارجة عن المالوف من البيف بيكون المدخن مع الفراولة المنعشة وجبنة البراتة الايطالية الكريمية وبيستو الريحان في خبز السوردو، و تستحق لقب تاج السندوتشات',
