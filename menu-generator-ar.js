@@ -37,10 +37,27 @@ function createProductCard(product, category) {
 // Create pizza price HTML — three side-by-side chips, label on top · price below (Arabic)
 function createPizzaPriceHTML(product) {
     return `
-        <div class="div-block-10">
-            <div class="div-block-12">
-                <div class="number-price-tag">${product.priceGrande}</div>
-                <div class="egp-price-tag">EGP</div>
+        <div class="div-block-10 pizza-price-block">
+            <div class="price-chip">
+                <div class="chip-label">دقيق ايطالي ابيض</div>
+                <div class="chip-amount">
+                    <span class="number-price-tag">${product.priceClassico}</span>
+                    <span class="egp-price-tag">EGP</span>
+                </div>
+            </div>
+            <div class="price-chip combo-chip">
+                <div class="chip-label">Classico<br>+ Salad</div>
+                <div class="chip-amount">
+                    <span class="number-price-tag">${product.priceClassicoCombo}</span>
+                    <span class="egp-price-tag">EGP</span>
+                </div>
+            </div>
+            <div class="price-chip">
+                <div class="chip-label">دقيق ايطالي حبه كامله</div>
+                <div class="chip-amount">
+                    <span class="number-price-tag">${product.priceGrande}</span>
+                    <span class="egp-price-tag">EGP</span>
+                </div>
             </div>
         </div>
     `;
