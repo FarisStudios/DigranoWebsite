@@ -9,9 +9,9 @@ const menuProducts = {
             nameArabic: 'بيتزا فونجي',
             ingredients: 'Tomato Sauce + Mushroom + Olives + Truffle + Mozzarella + Bufala Cheese + Parmesan + Oregano',
             ingredientsArabic: 'صلصة براون + مشروم + زيتون + ترافيل + موزريلا + موزريلا بوفالا + بارميجان + زعتر',
-            priceClassico: 275,
+            priceClassico: 395,
             priceClassicoCombo: 270,
-            priceGrande: 380,
+            priceGrande: 420,
             image: 'images/pizza/Halfsize/PizzaFunghi1.jpg',
             available: true
         },
@@ -22,9 +22,9 @@ const menuProducts = {
             nameArabic: 'بيتزا مارغريتا',
             ingredients: 'Tomato sauce + Mozzarella cheese + Basil + Parmesan cheese',
             ingredientsArabic: 'صلصة بيتزا ايطالية + جبنة موزريلا + بارميجان + زعتر',
-            priceClassico: 190,
+            priceClassico: 285,
             priceClassicoCombo: 210,
-            priceGrande: 250,
+            priceGrande: 310,
             image: 'images/pizza/Halfsize/Margherita.jpg',
             available: true
         },
@@ -35,9 +35,9 @@ const menuProducts = {
             nameArabic: 'بيتزا فراخ',
             ingredients: 'Tomato sauce + Chicken + Bufala Cheese + Mushroom + Parmesan cheese + Oregano',
             ingredientsArabic: 'صلصة بيتزا الايطالية + فراخ + جبنة موزريلا بوفالا الايطالية + مشروم + بارميزان + زعتر',
-            priceClassico: 275,
+            priceClassico: 425,
             priceClassicoCombo: 270,
-            priceGrande: 350,
+            priceGrande: 450,
             image: 'images/pizza/Halfsize/PizzaConPollo.jpg',
             available: true
         },
@@ -48,9 +48,9 @@ const menuProducts = {
             nameArabic: 'بيتزا بوراتا',
             ingredients: 'Pesto sauce + Burrata + Arugula + Basil + Pomegranate + Walnuts + Pomegranate molasses',
             ingredientsArabic: 'بيستو صوص + جبنة بوراتا الايطالية + جرجير + ريحان + رمان + عين جمل + دبس الرمان',
-            priceClassico: '-',
+            priceClassico: 485,
             priceClassicoCombo: '-',
-            priceGrande: 450,
+            priceGrande: 510,
             image: 'images/pizza/Halfsize/BurrataPizza.jpg',
             available: true
         },
@@ -61,9 +61,9 @@ const menuProducts = {
             nameArabic: 'بيتزا جمبري',
             ingredients: 'Tomato sauce + Bell Pepper + Mozzarella + Bufala Cheese + Capers + Shrimp',
             ingredientsArabic: 'صلصة بيتزا الايطالية + فلفل الوان + موزريلا + جبنة موزريلا بوفالا الايطالية + كابري + جمبري',
-            priceClassico: 385,
+            priceClassico: 495,
             priceClassicoCombo: 370,
-            priceGrande: 440,
+            priceGrande: 520,
             image: 'images/pizza ai gamberi.jpg',
             available: true
         },
@@ -74,9 +74,9 @@ const menuProducts = {
             nameArabic: 'بيتزا بيستو',
             ingredients: 'White Sauce + Pesto + Parmesan cheese + Bufala cheese + Sundried Tomatoes + Pepperoni + Basil',
             ingredientsArabic: 'صوص بيستو + موزريلا بوفالا الايطالية + بارميجان + طماطم مجففة + ببروني + ريحان',
-            priceClassico: 295,
+            priceClassico: 425,
             priceClassicoCombo: 305,
-            priceGrande: 395,
+            priceGrande: 450,
             image: 'images/pizza/Halfsize/PestoPizza2.jpg',
             available: true
         },
@@ -87,9 +87,9 @@ const menuProducts = {
             nameArabic: 'بيتزا الخضار',
             ingredients: 'Tomato Sauce + Bufala Cheese + Parmesan cheese + Mozzarella cheese + Bell pepper + Zucchini + Olives + Mushroom + Basil',
             ingredientsArabic: 'صلصه بيتزا الايطالية + جبنة موزريلا + جبنة موزريلا بوفالا الايطالية + فلفل الوان + كوسا + زيتون + مشروم + بارميزان',
-            priceClassico: 195,
+            priceClassico: 375,
             priceClassicoCombo: 215,
-            priceGrande: 340,
+            priceGrande: 395,
             image: 'images/pizza/Halfsize/PrimaveraPizza.jpg',
             available: true
         },
@@ -100,9 +100,9 @@ const menuProducts = {
             nameArabic: 'بيتزا الببروني',
             ingredients: 'Tomato Sauce + Bufala Cheese + Mozzarella cheese + Parmesan Cheese + Pepperoni + Basil',
             ingredientsArabic: 'صلصة بيتزا الايطالية + موزريلا + موزريلا بوفالا الايطالية + ببروني + بارميجان',
-            priceClassico: 275,
+            priceClassico: 440,
             priceClassicoCombo: 270,
-            priceGrande: 390,
+            priceGrande: 465,
             image: 'images/pizza/Halfsize/Diavola1.jpg',
             available: true
         },
@@ -113,9 +113,9 @@ const menuProducts = {
             nameArabic: 'بيتزا اللحم المجفف',
             ingredients: 'Brown sauce + Beef Bacon + Mozzarella + Bufala Mozzarella + Parmesan + Mushroom + Bell Pepper + Olives',
             ingredientsArabic: 'براون صوص + بيف بيكون + فلفل الوان + مشروم + زيتون + موزريلا + موزريلا بوفالا الايطالية + بارميجان',
-            priceClassico: 325,
+            priceClassico: 450,
             priceClassicoCombo: 315,
-            priceGrande: 395,
+            priceGrande: 475,
             image: 'images/pizza/Halfsize/BefBacon.jpg',
             available: true
         },
@@ -126,9 +126,9 @@ const menuProducts = {
             nameArabic: 'بيتزا بوفالا',
             ingredients: 'Tomato Sauce + Bufala cheese + Parmesan cheese + Basil',
             ingredientsArabic: 'صلصة بيتزا طماطم الايطالية + جبنة موزريلا بوفالا الايطالية + بارميجان',
-            priceClassico: 275,
+            priceClassico: 385,
             priceClassicoCombo: 270,
-            priceGrande: 340,
+            priceGrande: 410,
             image: 'images/pizza/Halfsize/PizzaBufala2.jpg',
             available: true
         },
@@ -139,9 +139,9 @@ const menuProducts = {
             nameArabic: 'بيتزا الفريدو',
             ingredients: 'Alfredo sauce + Chicken + Bufala Cheese + Mushroom + Parmesan cheese',
             ingredientsArabic: 'صلصة الفريدو + جبنة موزريلا الايطالية + فراخ بالتتبيلة الايطالية الخاصة + مشروم + بارميجان',
-            priceClassico: 325,
+            priceClassico: 440,
             priceClassicoCombo: 315,
-            priceGrande: 390,
+            priceGrande: 465,
             image: 'images/pizza/Halfsize/AlfredoPizza.jpg',
             available: true
         },
@@ -152,25 +152,12 @@ const menuProducts = {
             nameArabic: 'بيتزا مكس جبن',
             ingredients: 'White sauce + Bufala cheese + Mozzarella + Roquefort cheese + Parmesan cheese',
             ingredientsArabic: 'وايت صوص + جبنه موزريلا الايطالية + جبنه موزريلا بوفالا الايطالية + ريكفورت + بارميجان',
-            priceClassico: 275,
+            priceClassico: 425,
             priceClassicoCombo: 295,
-            priceGrande: 395,
+            priceGrande: 450,
             image: 'images/pizza/Halfsize/SecondQuattro.jpg',
             available: true
         },
-        {
-            id: 'pizza-013',
-            nameItalian: 'Digrano Beef Pizza',
-            nameEnglish: '',
-            nameArabic: 'بيتزا ديجرانوف',
-            ingredients: 'Tomato Sauce + White Sauce Beef + Mozzarella + Mushroom',
-            ingredientsArabic: 'صلصة بيتزا الايطالية + شرائح لحمة بلوايت صوص + جبنة موزاريلا + مشروم',
-            priceClassico: 325,
-            priceClassicoCombo: 270,
-            priceGrande: 395,
-            image: 'images/pizza/Halfsize/HalfSize-Stroganof4.jpg',
-            available: true
-        }
     ],
     
     pasta: [
@@ -203,7 +190,7 @@ const menuProducts = {
             nameArabic: 'بيستو باستا',
             ingredients: 'Pesto Sauce + Mushroom + Chicken + Parmesan cheese',
             ingredientsArabic: 'بيستو صوص + فراخ متبل + مشروم + بارميجان',
-            price: 295,
+            price: 365,
             image: 'images/pasta/Halfsize/Fettuccine al sugo di basilico.jpg',
             available: true
         },
@@ -236,7 +223,7 @@ const menuProducts = {
             nameArabic: 'باستا مكس جبن',
             ingredients: 'White Sauce + Mozzarella + Parmesan + Roquefort + Smoked cheese',
             ingredientsArabic: 'وايت صوص + موزريلا + بارميجان + ريكفورت + الجبنه المدخنة',
-            price: 350,
+            price: 340,
             image: 'images/pasta/Halfsize/quattroformaggi.jpg',
             available: true
         },
@@ -247,7 +234,7 @@ const menuProducts = {
             nameArabic: 'باستا ترافل',
             ingredients: 'White Sauce + Truffle + Mushroom + Parmesan',
             ingredientsArabic: 'وايت صوص + مشروم + مشروم الترافيل + بارميجان',
-            price: 250,
+            price: 290,
             image: 'images/pasta/Halfsize/FunghiPasta.jpg',
             available: true
         },
@@ -258,7 +245,7 @@ const menuProducts = {
             nameArabic: 'باستا بوراتا',
             ingredients: 'Red Sauce + Burrata cheese + Pesto + Parmesan cheese',
             ingredientsArabic: 'صلصة طماطم + جبنة بوراتا + بيستو + جبنة بارميزان',
-            price: 300,
+            price: 370,
             image: 'images/pasta/Halfsize/BurrataPasta2.jpg',
             available: true
         },
@@ -269,7 +256,7 @@ const menuProducts = {
             nameArabic: 'بولونيز باستا',
             ingredients: 'Red Sauce + Ground Beef + Parmesan cheese',
             ingredientsArabic: 'ريد صوص + لحم مفروم بقري بالتتبيلة الايطالية + بارميجان',
-            price: 320,
+            price: 340,
             image: 'images/pasta/Halfsize/Spaghetti alla Bolognese.jpg',
             available: true
         }
@@ -294,7 +281,7 @@ const menuProducts = {
             nameArabic: 'سلطة كابريزي',
             ingredients: 'Italian Bufala Cheese + Tomatoes + Basil + Olive Oil',
             ingredientsArabic: 'جبنه بوفلا الايطالية + طماطم + ريحان + زيت زيتون',
-            price: 225,
+            price: 275,
             image: 'images/Salad/caprese.jpg',
             available: true
         },
@@ -319,7 +306,7 @@ const menuProducts = {
             nameArabic: 'شوربة فونجي',
             ingredients: 'Cream sauce + Mushroom',
             ingredientsArabic: 'شوربة الكريمة اللذيذة مع قطع الفطر الطازجة',
-            price: 90,
+            price: 125,
             image: 'images/soup/Halfsize/MushroomSoup.jpg',
             available: true
         },
@@ -330,7 +317,7 @@ const menuProducts = {
             nameArabic: 'شوربة فراخ',
             ingredients: 'Cream sauce + Mushroom + Chicken',
             ingredientsArabic: 'شوربة الكريمة اللذيذة مع قطع الفطر و الفراخ الطازجة',
-            price: 125,
+            price: 150,
             image: 'images/soup/Halfsize/chickensoup.jpg',
             available: true
         },
@@ -341,7 +328,7 @@ const menuProducts = {
             nameArabic: 'شوربة جمبري',
             ingredients: 'Cream sauce + Shrimp',
             ingredientsArabic: 'شوربة الكريمة اللذيذة مع جمبري طازج',
-            price: 175,
+            price: 195,
             image: 'images/soup/Halfsize/ShrimpSoup.jpg',
             available: true
         },
@@ -352,7 +339,7 @@ const menuProducts = {
             nameArabic: 'شوربة بيف بيكون',
             ingredients: 'Cream sauce + Mushroom + Beef Bacon',
             ingredientsArabic: 'شوربة الكريمة اللذيذة مع قطع الفطر و قطع بيف بيكون',
-            price: 150,
+            price: 175,
             image: 'images/soup/Halfsize/Halfsize-BeefBaconSoup.jpg',
             available: true
         }
@@ -485,4 +472,3 @@ schiacciata: [
     ]
 
 };
-
