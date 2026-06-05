@@ -264,17 +264,6 @@ const menuProducts = {
     
     salads: [
         {
-            id: 'salad-001',
-            nameItalian: 'Cesare classico',
-            nameEnglish: 'Classic Caesar Salad',
-            nameArabic: 'سيزر كلاسيك',
-            ingredients: 'Ceasar sauce + Lettuce + Croutons + Parmesan cheese',
-            ingredientsArabic: 'صلصة سيزر + كابوتشا + كريتون ( عيش محمص) + جبنة بارميزان',
-            price: 150,
-            image: 'https://cdn.prod.website-files.com/684040cab7995662a002de62/68600f321caa887d5c637634_CesareClassico2.png',
-            available: true
-        },
-        {
             id: 'salad-003',
             nameItalian: 'Caprese',
             nameEnglish: '',
