@@ -6,9 +6,11 @@ function createProductCard(product, category) {
     card.className = 'collection-item menu-item';
     
     // Build price section based on category
-    const priceHTML = category === 'pizza' 
+    const priceHTML = category === 'pizza'
         ? createPizzaPriceHTML(product)
-        : createSinglePriceHTML(product);
+        : category === 'beverages'
+            ? createBeveragePriceHTML(product)
+            : createSinglePriceHTML(product);
     
     // Build availability overlay (Arabic text)
     const overlayHTML = !product.available 
@@ -56,6 +58,35 @@ function createPizzaPriceHTML(product) {
                 <div class="chip-label">دقيق ايطالي حبه كامله</div>
                 <div class="chip-amount">
                     <span class="number-price-tag">${product.priceGrande}</span>
+                    <span class="egp-price-tag">EGP</span>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+// Create beverages price HTML — duplicate pizza-style chips with custom beverage labels (Arabic)
+function createBeveragePriceHTML(product) {
+    if (product.price2 === undefined) {
+        return createSinglePriceHTML(product);
+    }
+
+    const label1 = product.labelArabic1 || 'التسعيرة 1';
+    const label2 = product.labelArabic2 || 'التسعيرة 2';
+
+    return `
+        <div class="div-block-10 pizza-price-block beverage-price-block">
+            <div class="price-chip">
+                <div class="chip-label">${label1}</div>
+                <div class="chip-amount">
+                    <span class="number-price-tag">${product.price}</span>
+                    <span class="egp-price-tag">EGP</span>
+                </div>
+            </div>
+            <div class="price-chip">
+                <div class="chip-label">${label2}</div>
+                <div class="chip-amount">
+                    <span class="number-price-tag">${product.price2}</span>
                     <span class="egp-price-tag">EGP</span>
                 </div>
             </div>
