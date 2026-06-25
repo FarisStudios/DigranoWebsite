@@ -160,8 +160,8 @@ const menuProducts = {
         },
         {
             id: 'pizza-013',
-            nameItalian: '',
-            nameEnglish: 'Smash Beef Pizza',
+            nameItalian: 'Smash Beef Pizza',
+            nameEnglish: '',
             nameArabic: 'بيتزا سماش بيف',
             ingredients: 'Tomato sauce + Smash Beef + Mushroom + Cheddar cheese + Mozzarella + Parmesan cheese',
             ingredientsArabic: 'صلصة بيتزا طماطم الايطالية + سماش بيف + مشروم + جبنه موزريلا الايطالية + جبنه شيدر + بارميجان',
