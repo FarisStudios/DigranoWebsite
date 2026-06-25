@@ -455,6 +455,11 @@ schiacciata: [
             ingredients: '',
             ingredientsArabic: '',
             price: 195,
+            price2: 75,
+            label1: "Large Size",
+            label2: "Medium Size",
+            labelArabic1: "حجم كبير",
+            labelArabic2: "حجم وسط",
             image: 'images/Drinks/Halfsize-Tiramisu.jpg',
             available: true
         },
