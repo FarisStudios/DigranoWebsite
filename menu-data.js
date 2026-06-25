@@ -158,6 +158,19 @@ const menuProducts = {
             image: 'images/pizza/Halfsize/SecondQuattro.jpg',
             available: true
         },
+        {
+            id: 'pizza-013',
+            nameItalian: '',
+            nameEnglish: 'Smash Beef Pizza',
+            nameArabic: 'بيتزا سماش بيف',
+            ingredients: 'Tomato sauce + Smash Beef + Mushroom + Cheddar cheese + Mozzarella + Parmesan cheese',
+            ingredientsArabic: 'صلصة بيتزا طماطم الايطالية + سماش بيف + مشروم + جبنه موزريلا الايطالية + جبنه شيدر + بارميجان',
+            priceClassico: 470,
+            priceClassicoCombo: 295,
+            priceGrande: 495,
+            image: 'images/pizza/Halfsize/Halfsize-SmashBeef.png',
+            available: true
+        }
     ],
     
     pasta: [
