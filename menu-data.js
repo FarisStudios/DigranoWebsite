@@ -5,10 +5,10 @@ const menuProducts = {
         {
             id: 'pizza-001',
             nameItalian: 'Pizza ai Funghi',
-            nameEnglish: 'Mushroom Pizza',
-            nameArabic: 'بيتزا فونجي',
+            nameEnglish: 'Truffle Mushroom Pizza',
+            nameArabic: 'بيتزا فونجي ترافيل',
             ingredients: 'Tomato Sauce + Mushroom + Olives + Truffle + Mozzarella + Bufala Cheese + Parmesan + Oregano',
-            ingredientsArabic: 'صلصة براون + مشروم + زيتون + ترافيل + موزريلا + موزريلا بوفالا + بارميجان + زعتر',
+            ingredientsArabic: 'صلصة طماطم + مشروم + زيتون + ترافيل + موزريلا + موزريلا بوفالا + بارميجان + زعتر',
             priceClassico: 395,
             priceClassicoCombo: 270,
             priceGrande: 420,
@@ -21,7 +21,7 @@ const menuProducts = {
             nameEnglish: '',
             nameArabic: 'بيتزا مارغريتا',
             ingredients: 'Tomato sauce + Mozzarella cheese + Basil + Parmesan cheese',
-            ingredientsArabic: 'صلصة بيتزا ايطالية + جبنة موزريلا + بارميجان + زعتر',
+            ingredientsArabic: 'صلصة طماطم ايطالية + جبنة موزريلا + بارميجان + زعتر',
             priceClassico: 285,
             priceClassicoCombo: 210,
             priceGrande: 310,
@@ -34,7 +34,7 @@ const menuProducts = {
             nameEnglish: 'Chicken Pizza',
             nameArabic: 'بيتزا فراخ',
             ingredients: 'Tomato sauce + Chicken + Bufala Cheese + Mushroom + Parmesan cheese + Oregano',
-            ingredientsArabic: 'صلصة بيتزا الايطالية + فراخ + جبنة موزريلا بوفالا الايطالية + مشروم + بارميزان + زعتر',
+            ingredientsArabic: 'صلصة طماطم الايطالية + فراخ + جبنة موزريلا بوفالا الايطالية + مشروم + بارميزان + زعتر',
             priceClassico: 425,
             priceClassicoCombo: 270,
             priceGrande: 450,
@@ -46,8 +46,8 @@ const menuProducts = {
             nameItalian: 'Pizza con Burrata',
             nameEnglish: 'Burrata Pizza',
             nameArabic: 'بيتزا بوراتا',
-            ingredients: 'Pesto sauce + Burrata + Arugula + Basil + Pomegranate + Walnuts + Pomegranate molasses',
-            ingredientsArabic: 'بيستو صوص + جبنة بوراتا الايطالية + جرجير + ريحان + رمان + عين جمل + دبس الرمان',
+            ingredients: 'Pesto sauce + Burrata + Arugula + Basil + Walnuts + Pomegranate molasses',
+            ingredientsArabic: 'بيستو صوص + جبنة بوراتا الايطالية + جرجير + ريحان + عين جمل + دبس الرمان',
             priceClassico: 485,
             priceClassicoCombo: '-',
             priceGrande: 510,
@@ -60,7 +60,7 @@ const menuProducts = {
             nameEnglish: 'Shrimp Pizza',
             nameArabic: 'بيتزا جمبري',
             ingredients: 'Tomato sauce + Bell Pepper + Mozzarella + Bufala Cheese + Capers + Shrimp',
-            ingredientsArabic: 'صلصة بيتزا الايطالية + فلفل الوان + موزريلا + جبنة موزريلا بوفالا الايطالية + كابري + جمبري',
+            ingredientsArabic: 'صلصة طماطم الايطالية + فلفل الوان + موزريلا + جبنة موزريلا بوفالا الايطالية + كابري + جمبري',
             priceClassico: 495,
             priceClassicoCombo: 370,
             priceGrande: 520,
@@ -99,7 +99,7 @@ const menuProducts = {
             nameEnglish: 'Pepperoni Pizza',
             nameArabic: 'بيتزا الببروني',
             ingredients: 'Tomato Sauce + Bufala Cheese + Mozzarella cheese + Parmesan Cheese + Pepperoni + Basil',
-            ingredientsArabic: 'صلصة بيتزا الايطالية + موزريلا + موزريلا بوفالا الايطالية + ببروني + بارميجان',
+            ingredientsArabic: 'صلصة طماطم الايطالية + موزريلا + موزريلا بوفالا الايطالية + ببروني + بارميجان',
             priceClassico: 440,
             priceClassicoCombo: 270,
             priceGrande: 465,
@@ -125,7 +125,7 @@ const menuProducts = {
             nameEnglish: 'Bufala Pizza',
             nameArabic: 'بيتزا بوفالا',
             ingredients: 'Tomato Sauce + Bufala cheese + Parmesan cheese + Basil',
-            ingredientsArabic: 'صلصة بيتزا طماطم الايطالية + جبنة موزريلا بوفالا الايطالية + بارميجان',
+            ingredientsArabic: 'صلصة طماطم الايطالية + جبنة موزريلا بوفالا الايطالية + بارميجان',
             priceClassico: 385,
             priceClassicoCombo: 270,
             priceGrande: 410,
@@ -150,8 +150,8 @@ const menuProducts = {
             nameItalian: 'Pizza Quattro Formaggi',
             nameEnglish: 'Four Cheese Pizza',
             nameArabic: 'بيتزا مكس جبن',
-            ingredients: 'White sauce + Bufala cheese + Mozzarella + Roquefort cheese + Parmesan cheese',
-            ingredientsArabic: 'وايت صوص + جبنه موزريلا الايطالية + جبنه موزريلا بوفالا الايطالية + ريكفورت + بارميجان',
+            ingredients: 'Bufala cheese + Mozzarella + Roquefort cheese + Parmesan cheese',
+            ingredientsArabic: 'جبنه موزريلا الايطالية + جبنه موزريلا بوفالا الايطالية + ريكفورت + بارميجان',
             priceClassico: 425,
             priceClassicoCombo: 295,
             priceGrande: 450,
@@ -164,7 +164,7 @@ const menuProducts = {
             nameEnglish: '',
             nameArabic: 'بيتزا سماش بيف',
             ingredients: 'Tomato sauce + Smash Beef + Mushroom + Cheddar cheese + Mozzarella + Parmesan cheese',
-            ingredientsArabic: 'صلصة بيتزا طماطم الايطالية + سماش بيف + مشروم + جبنه موزريلا الايطالية + جبنه شيدر + بارميجان',
+            ingredientsArabic: 'صلصة طماطم الايطالية + سماش بيف + مشروم + جبنه موزريلا الايطالية + جبنه شيدر + بارميجان',
             priceClassico: 470,
             priceClassicoCombo: 295,
             priceGrande: 495,
@@ -317,8 +317,8 @@ const menuProducts = {
             nameItalian: 'Zuppa di pollo',
             nameEnglish: 'Chicken Soup',
             nameArabic: 'شوربة فراخ',
-            ingredients: 'Cream sauce + Mushroom + Chicken',
-            ingredientsArabic: 'شوربة الكريمة اللذيذة مع قطع الفطر و الفراخ الطازجة',
+            ingredients: 'Cream sauce + Chicken',
+            ingredientsArabic: 'شوربة الكريمة اللذيذة مع قطع الفراخ الطازجة',
             price: 150,
             image: 'images/soup/Halfsize/chickensoup.jpg',
             available: true
@@ -330,7 +330,7 @@ const menuProducts = {
             nameArabic: 'شوربة جمبري',
             ingredients: 'Cream sauce + Shrimp',
             ingredientsArabic: 'شوربة الكريمة اللذيذة مع جمبري طازج',
-            price: 195,
+            price: 200,
             image: 'images/soup/Halfsize/ShrimpSoup.jpg',
             available: true
         },
@@ -339,9 +339,9 @@ const menuProducts = {
             nameItalian: 'Zuppa Pancetta di Manzo',
             nameEnglish: 'Beef Bacon Soup',
             nameArabic: 'شوربة بيف بيكون',
-            ingredients: 'Cream sauce + Mushroom + Beef Bacon',
-            ingredientsArabic: 'شوربة الكريمة اللذيذة مع قطع الفطر و قطع بيف بيكون',
-            price: 175,
+            ingredients: 'Cream sauce + Beef Bacon',
+            ingredientsArabic: 'شوربة الكريمة اللذيذة مع قطع بيف بيكون',
+            price: 180,
             image: 'images/soup/Halfsize/Halfsize-BeefBaconSoup.jpg',
             available: true
         }
@@ -356,7 +356,7 @@ schiacciata: [
         ingredientsArabic: 'لعشاق الطعم الجريء سلامي مع مشروم سوتيه وجبنة الستراتاتشيلا الفاخره بلمسه ترافيل في خبز السوردو',
         price: 195,
         image: 'images/schiacciata/Nero.png',
-        available: true
+        available: False
     },
     {
         id: 'schiacciata-002',
@@ -367,7 +367,7 @@ schiacciata: [
         ingredientsArabic: 'طعم يفرض نفسه من اول قطمة من سلامي مع جبنة الستراتاتشيلا والبيستو الفاخر مع قرمشة الجرجير في خبز السوردو',
         price: 195,
         image: 'images/schiacciata/Prestigio.png',
-        available: true
+        available: False
     },
     {
         id: 'schiacciata-003',
@@ -378,7 +378,7 @@ schiacciata: [
         ingredientsArabic: 'تركيبة ايطالية خفيفة بنكهة متناغمة من التيركي المدخن و جبنة الستراتاتشيلا مع الجرجير المقرمش وبيستو الريحان الغني في خبز السوردو',
         price: 195,
         image: 'images/schiacciata/Dolce.png',
-        available: true
+        available: False
     },
     {
         id: 'schiacciata-004',
@@ -389,7 +389,7 @@ schiacciata: [
         ingredientsArabic: 'الاحساس الاستثنائي من التيركي المدخن مع جبنة الستراتاتشيلا والجرجير والطماطم الطازج بلمسه الترافيل في خبز السوردو',
         price: 195,
         image: 'images/schiacciata/Fantasia.png',
-        available: true
+        available: False
     },
     {
         id: 'schiacciata-005',
@@ -400,7 +400,7 @@ schiacciata: [
         ingredientsArabic: 'قريبة من الكبريزي الايطالي لكن بلمساتنا الخاصة من الطماطم المشوية مع بيستو الريحان الغني و جبنة الستراتاتشيلا مع الجرجير الفريش في خبز السوردو',
         price: 135,
         image: 'images/schiacciata/pomodoro.jpeg',
-        available: true
+        available: False
     },
     {
         id: 'schiacciata-006',
@@ -411,7 +411,7 @@ schiacciata: [
         ingredientsArabic: 'النكهة العميقة من الكوسا المشوية مع المشروم الفريش السوتيه مع جبنة الستراتاتشيلا بلمسة الترافيل الفاخر مع الجرجير في خبز السوردو',
         price: 135,
         image: 'images/schiacciata/trufallo.jpeg',
-        available: true
+        available: False
     },
     {
         id: 'schiacciata-007',
@@ -422,7 +422,7 @@ schiacciata: [
         ingredientsArabic: 'تجربة فاخرة وخارجة عن المالوف من سلامي مع الاناناس المشوي وجبنة الستراتاتشيلا وبيستو الريحان في خبز السوردو، و تستحق لقب تاج السندوتشات',
         price: 235,
         image: 'images/schiacciata/Boscaro.png',
-        available: true
+        available: False
     },
     {
         id: 'schiacciata-008',
@@ -433,7 +433,7 @@ schiacciata: [
         ingredientsArabic: 'طبقات من جبنة الستراتشيلا الكريمية الناعمة، مع الزبيب المجفف، وقرمشة اللوز المحمص، والموز تنتهي بلمسة شوكولاتة غنية تذوب بكل قضمة',
         price: 235,
         image: 'images/schiacciata/Dolcero.png',
-        available: true
+        available: False
     }
 ],
     
