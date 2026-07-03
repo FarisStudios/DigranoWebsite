@@ -356,7 +356,7 @@ schiacciata: [
         ingredientsArabic: 'لعشاق الطعم الجريء سلامي مع مشروم سوتيه وجبنة الستراتاتشيلا الفاخره بلمسه ترافيل في خبز السوردو',
         price: 195,
         image: 'images/schiacciata/Nero.png',
-        available: False
+        available: false
     },
     {
         id: 'schiacciata-002',
@@ -367,7 +367,7 @@ schiacciata: [
         ingredientsArabic: 'طعم يفرض نفسه من اول قطمة من سلامي مع جبنة الستراتاتشيلا والبيستو الفاخر مع قرمشة الجرجير في خبز السوردو',
         price: 195,
         image: 'images/schiacciata/Prestigio.png',
-        available: False
+        available: false
     },
     {
         id: 'schiacciata-003',
@@ -378,7 +378,7 @@ schiacciata: [
         ingredientsArabic: 'تركيبة ايطالية خفيفة بنكهة متناغمة من التيركي المدخن و جبنة الستراتاتشيلا مع الجرجير المقرمش وبيستو الريحان الغني في خبز السوردو',
         price: 195,
         image: 'images/schiacciata/Dolce.png',
-        available: False
+        available: false
     },
     {
         id: 'schiacciata-004',
@@ -389,7 +389,7 @@ schiacciata: [
         ingredientsArabic: 'الاحساس الاستثنائي من التيركي المدخن مع جبنة الستراتاتشيلا والجرجير والطماطم الطازج بلمسه الترافيل في خبز السوردو',
         price: 195,
         image: 'images/schiacciata/Fantasia.png',
-        available: False
+        available: false
     },
     {
         id: 'schiacciata-005',
@@ -400,7 +400,7 @@ schiacciata: [
         ingredientsArabic: 'قريبة من الكبريزي الايطالي لكن بلمساتنا الخاصة من الطماطم المشوية مع بيستو الريحان الغني و جبنة الستراتاتشيلا مع الجرجير الفريش في خبز السوردو',
         price: 135,
         image: 'images/schiacciata/pomodoro.jpeg',
-        available: False
+        available: false
     },
     {
         id: 'schiacciata-006',
@@ -411,7 +411,7 @@ schiacciata: [
         ingredientsArabic: 'النكهة العميقة من الكوسا المشوية مع المشروم الفريش السوتيه مع جبنة الستراتاتشيلا بلمسة الترافيل الفاخر مع الجرجير في خبز السوردو',
         price: 135,
         image: 'images/schiacciata/trufallo.jpeg',
-        available: False
+        available: false
     },
     {
         id: 'schiacciata-007',
@@ -422,7 +422,7 @@ schiacciata: [
         ingredientsArabic: 'تجربة فاخرة وخارجة عن المالوف من سلامي مع الاناناس المشوي وجبنة الستراتاتشيلا وبيستو الريحان في خبز السوردو، و تستحق لقب تاج السندوتشات',
         price: 235,
         image: 'images/schiacciata/Boscaro.png',
-        available: False
+        available: false
     },
     {
         id: 'schiacciata-008',
@@ -433,7 +433,7 @@ schiacciata: [
         ingredientsArabic: 'طبقات من جبنة الستراتشيلا الكريمية الناعمة، مع الزبيب المجفف، وقرمشة اللوز المحمص، والموز تنتهي بلمسة شوكولاتة غنية تذوب بكل قضمة',
         price: 235,
         image: 'images/schiacciata/Dolcero.png',
-        available: False
+        available: false
     }
 ],
     
