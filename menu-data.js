@@ -476,22 +476,6 @@ schiacciata: [
             image: 'images/Drinks/Halfsize-Tiramisu.jpg',
             available: true
         },
-        {
-            id: 'bev-004',
-            nameItalian: 'Espresso',
-            nameEnglish: '',
-            nameArabic: 'ايسبريسو',
-            ingredients: '',
-            ingredientsArabic: '',
-            price: 75,
-            price2: 95,
-            label1: "Single shot",
-            label2: "Double shot",
-            labelArabic1: "سنجل شوت",
-            labelArabic2: "دبل شوت",
-            image: 'images/Drinks/Espresso.png',
-            available: true
-        }
     ]
 
 };
