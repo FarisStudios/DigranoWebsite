@@ -170,6 +170,19 @@ const menuProducts = {
             priceGrande: 495,
             image: 'images/pizza/Halfsize/Halfsize-SmashBeef.png',
             available: true
+        },
+                {
+            id: 'pizza-014',
+            nameItalian: 'La Pistachio',
+            nameEnglish: '',
+            nameArabic: 'بيتزا بيستاشيو',
+            ingredients: 'Pesto + Bufala + Pepperoni + Stracciatella cheese + Hot Honey + Pistachio',
+            ingredientsArabic: 'صوص بيستو + موزريلا بوفالا الايطالية + ببروني + جبنة الستراتاتشيلا + هوت هوني + فستق حلبي',
+            priceClassico: 485,
+            priceClassicoCombo: 295,
+            priceGrande: 510,
+            image: 'images/pizza/LaPistachioPizza.png',
+            available: true
         }
     ],
     
