@@ -116,7 +116,7 @@ const menuProducts = {
             priceClassico: 450,
             priceClassicoCombo: 315,
             priceGrande: 475,
-            image: 'images/pizza/Halfsize/BefBacon.jpg',
+            image: 'images/pizza/Halfsize/Halfsize-BefBacon2.png',
             available: true
         },
         {
