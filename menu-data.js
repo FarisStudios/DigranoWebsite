@@ -236,7 +236,7 @@ const menuProducts = {
             nameItalian: 'Fettuccine cremose ai gamberetti',
             nameEnglish: 'Creamy Shrimp Fettuccine',
             nameArabic: 'باستا جمبري',
-            ingredients: 'White sauce or Red Sauce (as per request) + Shrimp + Mushroom + Parmesan cheese',
+            ingredients: 'White sauce or Red Sauce (as per request) + Shrimp + Parmesan cheese',
             ingredientsArabic: 'وايت او ريد صوص (حسب الرغبة) + جمبري + مشروم + بارميجان',
             price: 460,
             image: 'images/pasta/Halfsize/FettucineCremoseGamberetti.jpg',
