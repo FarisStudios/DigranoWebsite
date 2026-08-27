@@ -7,7 +7,7 @@ function createProductCard(product, category) {
     
     // Build price section based on category
     const priceHTML = category === 'pizza'
-        ? createPizzaPriceHTML(product)
+        ? createSinglePriceHTML(product, product.priceClassico)
         : category === 'beverages'
             ? createBeveragePriceHTML(product)
             : createSinglePriceHTML(product);
@@ -96,11 +96,11 @@ function createBeveragePriceHTML(product) {
 }
 
 // Create single price HTML
-function createSinglePriceHTML(product) {
+function createSinglePriceHTML(product, price = product.price) {
     return `
         <div class="div-block-10">
             <div class="div-block-12">
-                <div class="number-price-tag">${product.price}</div>
+                <div class="number-price-tag">${price}</div>
                 <div class="egp-price-tag">EGP</div>
             </div>
         </div>
