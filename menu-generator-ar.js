@@ -28,6 +28,7 @@ function createProductCard(product, category) {
             <div class="div-block-11">
                 <h1 class="heading-5">${product.nameArabic}</h1>
                 ${product.ingredientsArabic ? `<p class="paragraph-2">${product.ingredientsArabic}</p>` : ''}
+                ${product.extrasArabic ? `<p class="menu-extras">${product.extrasArabic}</p>` : ''}
             </div>
             ${priceHTML}
         </div>

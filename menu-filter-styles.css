@@ -113,6 +113,28 @@
     }
 }
 
+.menu-extras {
+    color: #ba120c !important;
+    font-weight: 600 !important;
+    margin-top: 8px !important;
+}
+
+.section-note {
+    font-style: italic;
+    font-size: 15px;
+    color: #7a0c08;
+    margin: 20px auto !important;
+    padding: 14px 20px !important;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 500;
+    background: #fef8e7;
+    border: 2px solid #f5c842;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(245, 200, 66, 0.2);
+}
+
 .arabic-font-1,
 [lang="ar"] .heading-5,
 [lang="ar"] .paragraph-2,

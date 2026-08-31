@@ -29,6 +29,7 @@ function createProductCard(product, category) {
                 <h1 class="heading-5">${product.nameItalian}</h1>
                 ${product.nameEnglish ? `<p class="eng-menu-name">${product.nameEnglish}</p>` : ''}
                 ${product.ingredients ? `<p class="paragraph-2">${product.ingredients}</p>` : ''}
+                ${product.extras ? `<p class="menu-extras">${product.extras}</p>` : ''}
             </div>
             ${priceHTML}
         </div>
