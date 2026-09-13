@@ -347,7 +347,7 @@ const menuProducts = {
             nameArabic: 'شوربة جمبري',
             ingredients: 'Cream sauce + Shrimp',
             ingredientsArabic: 'شوربة الكريمة اللذيذة مع جمبري طازج',
-            price: 200,
+            price: 245,
             image: 'images/soup/Halfsize/ShrimpSoup.jpg',
             available: true
         },
@@ -491,7 +491,7 @@ schiacciata: [
             labelArabic1: "حجم كبير",
             labelArabic2: "حجم وسط",
             image: 'images/Drinks/Halfsize-Tiramisu.jpg',
-            available: true
+            available: false
         },
     ]
 
