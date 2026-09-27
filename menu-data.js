@@ -337,7 +337,7 @@ const menuProducts = {
             ingredients: 'Cream sauce + Chicken',
             ingredientsArabic: 'شوربة الكريمة اللذيذة مع قطع الفراخ الطازجة',
             price: 150,
-            image: 'images/soup/Halfsize/chickensoup.jpg',
+            image: 'images/soup/NewChickenSoup.png',
             available: true
         },
         {
