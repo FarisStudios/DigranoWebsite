@@ -54,7 +54,7 @@ const menuProducts = {
             priceClassicoCombo: '-',
             priceGrande: 510,
             image: 'images/pizza/Halfsize/BurrataPizza.jpg',
-            available: true
+            available: false
         },
         {
             id: 'pizza-005',
@@ -184,7 +184,7 @@ const menuProducts = {
             priceClassicoCombo: 295,
             priceGrande: 510,
             image: 'images/pizza/LaPistachioPizza.png',
-            available: true
+            available: false
         }
     ],
     
@@ -277,7 +277,7 @@ const menuProducts = {
             ingredientsArabic: 'صلصة طماطم + جبنة بوراتا + بيستو + جبنة بارميزان',
             price: 370,
             image: 'images/pasta/Halfsize/BurrataPasta2.jpg',
-            available: true
+            available: false
         },
         {
             id: 'pasta-010',
