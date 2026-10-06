@@ -222,7 +222,7 @@ const menuProducts = {
             nameArabic: 'باستا الفريدو فراخ',
             ingredients: 'White sauce + Chicken + Mushroom + Parmesan cheese',
             ingredientsArabic: 'صوص الفريدو + فراخ متبل + مشروم + بارميجان',
-            price: 320,
+            price: 365,
             image: 'images/pasta/Halfsize/Halfsize-ChickenFettucine.png',
             available: true
         },
@@ -244,7 +244,7 @@ const menuProducts = {
             nameArabic: 'بيستو باستا',
             ingredients: 'Pesto Sauce + Mushroom + Chicken + Parmesan cheese',
             ingredientsArabic: 'بيستو صوص + فراخ متبل + مشروم + بارميجان',
-            price: 365,
+            price: 395,
             image: 'images/pasta/Halfsize/Fettuccine al sugo di basilico.jpg',
             available: true
         },
@@ -266,12 +266,25 @@ const menuProducts = {
             nameArabic: 'باستا جمبري',
             ingredients: 'White sauce or Red Sauce (as per request) + Shrimp + Parmesan cheese',
             ingredientsArabic: 'وايت او ريد صوص (حسب الرغبة) + جمبري + مشروم + بارميجان',
-            price: 460,
+            price: 495,
             image: 'images/pasta/Halfsize/FettucineCremoseGamberetti.jpg',
             available: true
         },
         {
             id: 'pasta-006',
+            nameItalian: 'Alfredo Originale',
+            nameEnglish: '',
+            nameArabic: 'باستا الالفريدو الاصلية',
+            ingredients: 'Butter & Parmesan',
+            ingredientsArabic: 'زبدة و جبنة بارميجان',
+            extras: 'Add Chicken (+85 EGP) \n Add Mushroom (+35 EGP)',
+            extrasArabic: ' اضافة فراخ (+85 EGP) \n اضافة مشروم (+35 EGP)',
+            price: 230,
+            image: 'images/pasta/Halfsize/Halfsize-OriginalAlfredo.jpg',
+            available: true
+        },
+        {
+            id: 'pasta-007',
             nameItalian: 'Penne ai quattro formaggi',
             nameEnglish: 'Four Cheese Pasta',
             nameArabic: 'باستا مكس جبن',
@@ -301,7 +314,7 @@ const menuProducts = {
             nameArabic: 'باستا بوراتا',
             ingredients: 'Red Sauce + Burrata cheese + Pesto + Parmesan cheese',
             ingredientsArabic: 'صلصة طماطم + جبنة بوراتا + بيستو + جبنة بارميزان',
-            price: 370,
+            price: 425,
             image: 'images/pasta/Halfsize/BurrataPasta2.jpg',
             available: true
         },
@@ -314,6 +327,28 @@ const menuProducts = {
             ingredientsArabic: 'ريد صوص + لحم مفروم بقري بالتتبيلة الايطالية + بارميجان',
             price: 340,
             image: 'images/pasta/Halfsize/Spaghetti alla Bolognese.jpg',
+            available: true
+        },
+        {
+            id: 'pasta-011',
+            nameItalian: 'Cacio e pepe',
+            nameEnglish: 'Pecorino & Black Pepper Pasta',
+            nameArabic: 'باستا البيكورينو و الفلفل الاسود',
+            ingredients: 'Red Sauce + Ground Beef + Parmesan cheese',
+            ingredientsArabic: 'ريد صوص + لحم مفروم بقري بالتتبيلة الايطالية + بارميجان',
+            price: 255,
+            image: 'images/pasta/Halfsize/Halfsize-CacioEPeppe.jpg',
+            available: true
+        },
+        {
+            id: 'pasta-012',
+            nameItalian: 'Pasta del pastore',
+            nameEnglish: '',
+            nameArabic: 'باستا ديل باستوري ',
+            ingredients: 'white sauce, italian Seasoned meat, mushroom, Sundried tomatoes',
+            ingredientsArabic: 'وايت صوص + لحم بالتتبيلة الايطالية + مشروم + طماطم مجففة',
+            price: 460,
+            image: 'images/pasta/Halfsize/Halfsize-PastaDelPastore.jpg',
             available: true
         }
     ],

@@ -117,6 +117,7 @@
     color: #ba120c !important;
     font-weight: 600 !important;
     margin-top: 8px !important;
+    white-space: pre-line !important;
 }
 
 .section-note {
