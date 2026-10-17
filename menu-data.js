@@ -54,7 +54,8 @@ const menuProducts = {
             priceClassicoCombo: '-',
             priceGrande: 510,
             image: 'images/pizza/Halfsize/BurrataPizza.jpg',
-            available: true
+            available: true,
+            isBestSeller: true
         },
         {
             id: 'pizza-005',
@@ -119,7 +120,8 @@ const menuProducts = {
             priceClassicoCombo: 315,
             priceGrande: 475,
             image: 'images/pizza/Halfsize/Halfsize-BefBacon2.png',
-            available: true
+            available: true,
+            isBestSeller: true
         },
         {
             id: 'pizza-010',
@@ -246,7 +248,8 @@ const menuProducts = {
             ingredientsArabic: 'بيستو صوص + فراخ متبل + مشروم + بارميجان',
             price: 395,
             image: 'images/pasta/Halfsize/Fettuccine al sugo di basilico.jpg',
-            available: true
+            available: true,
+            isBestSeller: true
         },
         {
             id: 'pasta-004',
@@ -328,7 +331,8 @@ const menuProducts = {
             ingredientsArabic: 'ريد صوص + لحم مفروم بقري بالتتبيلة الايطالية + بارميجان',
             price: 340,
             image: 'images/pasta/Halfsize/Spaghetti alla Bolognese.jpg',
-            available: true
+            available: true,
+            isBestSeller: true
         },
         {
             id: 'pasta-011',
@@ -423,7 +427,8 @@ const menuProducts = {
             ingredientsArabic: 'شوربة الكريمة اللذيذة مع قطع بيف بيكون',
             price: 180,
             image: 'images/soup/Halfsize/Halfsize-BeefBaconSoup.jpg',
-            available: true
+            available: true,
+            isBestSeller: true
         }
     ],
 schiacciata: [

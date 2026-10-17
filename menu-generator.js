@@ -16,6 +16,9 @@ function createProductCard(product, category) {
     const overlayHTML = !product.available 
         ? '<div class="menu-item-overlay"><span class="menu-item-overlay-text">Currently Unavailable</span></div>'
         : '';
+    const bestSellerHTML = product.isBestSeller === true
+        ? '<span class="best-seller-ribbon">best seller</span>'
+        : '';
     const priceAndDeliveryHTML = product.NotAvailableForDelivery
         ? `<div class="price-delivery-row">${priceHTML}${createDeliveryNoteHTML(product)}</div>`
         : priceHTML;
@@ -23,10 +26,10 @@ function createProductCard(product, category) {
     card.innerHTML = `
         <div class="div-block-17">
             <div class="div-block-24">
+                ${bestSellerHTML}
                 <img src="${product.image}" 
                     alt="${product.nameEnglish || product.nameItalian}" 
                     class="image-2" />
-                ${overlayHTML}
             </div>
             <div class="div-block-11">
                 <h1 class="heading-5">${product.nameItalian}</h1>
@@ -36,6 +39,7 @@ function createProductCard(product, category) {
             </div>
             ${priceAndDeliveryHTML}
         </div>
+        ${overlayHTML}
     `;
 
     const whyButton = card.querySelector('.delivery-note-why');
