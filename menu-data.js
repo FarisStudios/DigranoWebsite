@@ -217,8 +217,8 @@ const menuProducts = {
     pasta: [
         {
             id: 'pasta-001',
-            nameItalian: 'Fettuccine cremose al pollo',
-            nameEnglish: 'Creamy Fettuccine with Chicken',
+            nameItalian: 'Pasta cremose al pollo',
+            nameEnglish: 'Creamy Pasta with Chicken',
             nameArabic: 'باستا الفريدو فراخ',
             ingredients: 'White sauce + Chicken + Mushroom + Parmesan cheese',
             ingredientsArabic: 'صوص الفريدو + فراخ متبل + مشروم + بارميجان',
@@ -239,8 +239,8 @@ const menuProducts = {
         },
         {
             id: 'pasta-003',
-            nameItalian: 'Fettuccine al pesto con pollo',
-            nameEnglish: 'Pesto & Chicken Fettuccine',
+            nameItalian: 'Pasta al pesto con pollo',
+            nameEnglish: 'Pesto & Chicken Pasta',
             nameArabic: 'بيستو باستا',
             ingredients: 'Pesto Sauce + Mushroom + Chicken + Parmesan cheese',
             ingredientsArabic: 'بيستو صوص + فراخ متبل + مشروم + بارميجان',
@@ -261,8 +261,8 @@ const menuProducts = {
         },
         {
             id: 'pasta-005',
-            nameItalian: 'Fettuccine cremose ai gamberetti',
-            nameEnglish: 'Creamy Shrimp Fettuccine',
+            nameItalian: 'Pasta cremose ai gamberetti',
+            nameEnglish: 'Creamy Shrimp Pasta',
             nameArabic: 'باستا جمبري',
             ingredients: 'White sauce or Red Sauce (as per request) + Shrimp + Parmesan cheese',
             ingredientsArabic: 'وايت او ريد صوص (حسب الرغبة) + جمبري + مشروم + بارميجان',
