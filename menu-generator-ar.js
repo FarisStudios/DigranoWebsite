@@ -16,6 +16,9 @@ function createProductCard(product, category) {
     const overlayHTML = !product.available 
         ? '<div class="menu-item-overlay"><span class="menu-item-overlay-text">غير متاح حاليا</span></div>'
         : '';
+    const priceAndDeliveryHTML = product.NotAvailableForDelivery
+        ? `<div class="price-delivery-row">${priceHTML}${createDeliveryNoteHTML(product)}</div>`
+        : priceHTML;
     
     card.innerHTML = `
         <div class="div-block-17">
@@ -30,11 +33,36 @@ function createProductCard(product, category) {
                 ${product.ingredientsArabic ? `<p class="paragraph-2">${product.ingredientsArabic}</p>` : ''}
                 ${product.extrasArabic ? `<p class="menu-extras">${product.extrasArabic}</p>` : ''}
             </div>
-            ${priceHTML}
+            ${priceAndDeliveryHTML}
         </div>
     `;
+
+    const whyButton = card.querySelector('.delivery-note-why');
+    if (whyButton) {
+        whyButton.addEventListener('click', () => {
+            const explanation = card.querySelector('.delivery-note-explanation');
+            const isExpanded = whyButton.getAttribute('aria-expanded') === 'true';
+            explanation.hidden = isExpanded;
+            whyButton.setAttribute('aria-expanded', String(!isExpanded));
+            card.classList.toggle('delivery-note-open', !isExpanded);
+        });
+    }
     
     return card;
+}
+
+function createDeliveryNoteHTML(product) {
+    if (!product.NotAvailableForDelivery) return '';
+
+    return `
+        <div class="delivery-note-container">
+            <p class="delivery-note" dir="rtl">
+                <span>غير متاح للتوصيل</span>
+                (<button class="delivery-note-why" type="button" aria-expanded="false" aria-controls="delivery-note-explanation-${product.id}">لماذا؟</button>)
+                <span class="delivery-note-explanation" id="delivery-note-explanation-${product.id}" role="note" hidden>للحفاظ على جودة الطعام وضمان أفضل تجربة.</span>
+            </p>
+        </div>
+    `;
 }
 
 // Create pizza price HTML — three side-by-side chips, label on top · price below (Arabic)

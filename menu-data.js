@@ -281,7 +281,8 @@ const menuProducts = {
             extrasArabic: ' اضافة فراخ (+85 EGP) \n اضافة مشروم (+35 EGP)',
             price: 230,
             image: 'images/pasta/Halfsize/Halfsize-OriginalAlfredo.jpg',
-            available: true
+            available: true,
+            NotAvailableForDelivery: true
         },
         {
             id: 'pasta-007',
@@ -338,7 +339,8 @@ const menuProducts = {
             ingredientsArabic: 'ريد صوص + لحم مفروم بقري بالتتبيلة الايطالية + بارميجان',
             price: 255,
             image: 'images/pasta/Halfsize/Halfsize-CacioEPeppe.jpg',
-            available: true
+            available: true,
+            NotAvailableForDelivery: true
         },
         {
             id: 'pasta-012',
@@ -557,3 +559,9 @@ schiacciata: [
     ]
 
 };
+
+Object.values(menuProducts).forEach(products => {
+    products.forEach(product => {
+        product.NotAvailableForDelivery = product.NotAvailableForDelivery === true;
+    });
+});
