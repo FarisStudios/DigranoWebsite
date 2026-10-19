@@ -164,19 +164,6 @@ const menuProducts = {
         },
         {
             id: 'pizza-013',
-            nameItalian: 'Smash Beef Pizza',
-            nameEnglish: '',
-            nameArabic: 'بيتزا سماش بيف',
-            ingredients: 'Tomato sauce + Smash Beef + Mushroom + Cheddar cheese + Mozzarella + Parmesan cheese',
-            ingredientsArabic: 'صلصة طماطم الايطالية + سماش بيف + مشروم + جبنه موزريلا الايطالية + جبنه شيدر + بارميجان',
-            priceClassico: 495,
-            priceClassicoCombo: 295,
-            priceGrande: 495,
-            image: 'images/pizza/Halfsize/Halfsize-SmashBeef.png',
-            available: true
-        },
-        {
-            id: 'pizza-014',
             nameItalian: 'La Pistachio',
             nameEnglish: '',
             nameArabic: 'بيتزا بيستاشيو',
@@ -189,7 +176,7 @@ const menuProducts = {
             available: true
         },
         {
-            id: 'pizza-015',
+            id: 'pizza-014',
             nameItalian: 'Pizza Miele Rosso',
             nameEnglish: 'Red Honey Pizza',
             nameArabic: 'بيتزا العسل الاحمر',
@@ -202,7 +189,7 @@ const menuProducts = {
             available: true
         },
         {
-            id: 'pizza-016',
+            id: 'pizza-015',
             nameItalian: 'Pizza Miele Verde',
             nameEnglish: 'Green Honey Pizza',
             nameArabic: 'بيتزا العسل الاخضر',
