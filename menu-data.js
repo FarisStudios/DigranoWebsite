@@ -528,7 +528,7 @@ schiacciata: [
             nameArabic: 'كولا',
             ingredients: '',
             ingredientsArabic: '',
-            price: 30,
+            price: 35,
             image: 'images/Drinks/Halfsize-Vcola.png',
             available: true
         },
