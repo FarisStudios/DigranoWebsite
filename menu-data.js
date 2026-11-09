@@ -330,7 +330,7 @@ const menuProducts = {
             ingredientsArabic: 'زبدة + جبنة بيكورينو + بارميجان + فلفل اسود',
             price: 255,
             image: 'images/pasta/Halfsize/Halfsize-CacioEPeppe.jpg',
-            available: false,
+            available: true,
             NotAvailableForDelivery: true
         },
         {
