@@ -188,26 +188,13 @@ const menuProducts = {
             image: 'images/pizza/Halfsize/Halfsize-MieleRosso.png',
             available: true
         },
-        {
-            id: 'pizza-015',
-            nameItalian: 'Pizza Miele Verde',
-            nameEnglish: 'Green Honey Pizza',
-            nameArabic: 'بيتزا العسل الاخضر',
-            ingredients: 'Pesto + Seasoned Italian meat + Bufala + Sundried Tomatoes + Mushroom',
-            ingredientsArabic: 'بيستو صوص + بوفالا + لحمة بتتبيلة إيطالية + طماطم مجففة + مشروم + هوت هوني',
-            priceClassico: 695,
-            priceClassicoCombo: 295,
-            priceGrande: 510,
-            image: 'images/pizza/MieleVerde.jpg', 
-            available: true
-        }
     ],
     
     pasta: [
         {
             id: 'pasta-001',
-            nameItalian: 'Pasta cremose al pollo',
-            nameEnglish: 'Creamy Pasta with Chicken',
+            nameItalian: 'Pasta Alfredo',
+            nameEnglish: 'Alfredo Pasta',
             nameArabic: 'باستا الفريدو فراخ',
             ingredients: 'White sauce + Chicken + Mushroom + Parmesan cheese',
             ingredientsArabic: 'صوص الفريدو + فراخ متبل + مشروم + بارميجان',
@@ -259,20 +246,6 @@ const menuProducts = {
             price: 495,
             image: 'images/pasta/Halfsize/FettucineCremoseGamberetti.jpg',
             available: true
-        },
-        {
-            id: 'pasta-006',
-            nameItalian: 'Alfredo Originale',
-            nameEnglish: '',
-            nameArabic: 'باستا الالفريدو الاصلية',
-            ingredients: 'Butter & Parmesan',
-            ingredientsArabic: 'زبدة و جبنة بارميجان',
-            extras: 'Add Chicken (+85 EGP) \n Add Mushroom (+35 EGP)',
-            extrasArabic: ' اضافة فراخ (+85 EGP) \n اضافة مشروم (+35 EGP)',
-            price: 230,
-            image: 'images/pasta/Halfsize/Halfsize-OriginalAlfredo.jpg',
-            available: true,
-            NotAvailableForDelivery: true
         },
         {
             id: 'pasta-007',
