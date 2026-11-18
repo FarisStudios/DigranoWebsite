@@ -60,16 +60,15 @@
   }
   .sub{margin-top:8px;font-size:14px;color:#f3d9d6}
 
-  nav{margin-top:34px;display:flex;flex-direction:column;gap:12px}
+  nav{margin-top:34px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 
   .btn{
     display:flex;align-items:center;gap:14px;
-    min-height:60px;padding:0 18px 0 12px;
+    min-height:96px;padding:14px 12px;flex-direction:column;justify-content:center;gap:8px;
     border-radius:12px;
     background:var(--white);color:var(--mainred);
     text-decoration:none;
     font-family:"Varela Round",sans-serif;font-size:18px;line-height:1.2;
-    border:2px solid var(--white);
     -webkit-tap-highlight-color:transparent;
     transition:transform .15s ease, background-color .15s ease, color .15s ease, border-color .15s ease;
   }
@@ -80,8 +79,8 @@
     transition:background-color .15s, color .15s;
   }
   .btn .ico svg{width:20px;height:20px}
-  .btn .label{flex:1;text-align:left}
-  .btn .go{width:22px;height:22px;opacity:.6;flex:none}
+  .btn .label{flex:1;text-align:center}
+  .btn .go{display:none}
 
   .btn:hover,.btn:focus-visible{
     transform:translateY(-2px);outline:none;
@@ -90,13 +89,29 @@
   .btn:hover .ico,.btn:focus-visible .ico{background:var(--deepred)}
   .btn:active{transform:translateY(0)}
 
+  .btn.primary,.btn.review{
+    grid-column:1 / -1;min-height:60px;padding:0 18px 0 12px;
+    flex-direction:row;gap:14px;
+  }
+  .btn.primary .label,.btn.review .label{text-align:left}
+  .btn.primary .go,.btn.review .go{display:block;width:22px;height:22px;opacity:.6;flex:none}
+
   .btn.primary{
     background:var(--accentyellow);border-color:var(--accentyellow);color:var(--deepred);
-    min-height:68px;font-size:20px;
+    min-height:68px;font-size:20px;box-shadow:0 6px 18px rgba(232,156,30,.32);margin-bottom:12px;
   }
   .btn.primary .ico{background:var(--deepred);color:var(--accentyellow)}
   .btn.primary:hover,.btn.primary:focus-visible{background:var(--white);border-color:var(--white);color:var(--mainred)}
   .btn.primary:hover .ico,.btn.primary:focus-visible .ico{background:var(--mainred);color:var(--white)}
+
+  .btn.social{background:var(--brand);border-color:var(--brand);color:#fff}
+  .btn.social .ico{background:rgba(255,255,255,.2);color:#fff}
+  .btn.social:hover,.btn.social:focus-visible{background:var(--brand);border-color:var(--brand);color:#fff;filter:brightness(.88)}
+  .btn.social:hover .ico,.btn.social:focus-visible .ico{background:rgba(255,255,255,.3)}
+  .btn.instagram{--brand:linear-gradient(135deg,#833ab4 0%,#fd1d1d 55%,#fcb045 100%)}
+  .btn.facebook{--brand:#0866ff}
+  .btn.tiktok{--brand:#111}
+  .btn.instapay{--brand:#633a8f}
 
   .info{margin-top:34px;font-size:14px;line-height:1.7;color:#f3d9d6}
   .info b{font-weight:400;color:var(--accentyellow)}
@@ -112,13 +127,14 @@
     .logo{width:200px}
     .tag{font-size:18px;margin-top:18px}
     nav{margin-top:28px}
-    .btn{min-height:58px;font-size:17px}
+    .btn{min-height:92px;font-size:16px}
+    .btn.primary,.btn.review{min-height:58px;font-size:17px}
     .btn.primary{min-height:64px;font-size:19px}
     .info{margin-top:28px}
   }
   @media (max-width:340px){
-    .btn{gap:10px;padding:0 12px 0 10px;font-size:16px}
-    .btn .go{display:none}
+    .btn{gap:8px;padding:12px 8px;font-size:14px}
+    .btn.primary,.btn.review{gap:10px;padding:0 12px 0 10px;font-size:16px}
   }
   /* No hover-lift on touch screens */
   @media (hover:none){
@@ -156,27 +172,33 @@
           <svg class="go" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M8.6 5.4 10 4l8 8-8 8-1.4-1.4 6.6-6.6z"/></svg>
         </a>
 
-        <a class="btn" href="https://www.instagram.com/digrano.eg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener">
+        <a class="btn social instagram" href="https://www.instagram.com/digrano.eg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener">
           <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.2-3.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></span>
           <span class="label">Instagram</span>
           <svg class="go" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M8.6 5.4 10 4l8 8-8 8-1.4-1.4 6.6-6.6z"/></svg>
         </a>
 
-        <a class="btn" href="https://www.facebook.com/profile.php?id=61577325166590" target="_blank" rel="noopener">
+        <a class="btn social facebook" href="https://www.facebook.com/profile.php?id=61577325166590" target="_blank" rel="noopener">
           <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-.95.4-1.7 1.8-1.7h1.6V3.8c-.3 0-1.3-.1-2.4-.1-2.5 0-4.1 1.5-4.1 4.2v2.6H7.6v3.3h2.8V22h3.1z"/></svg></span>
           <span class="label">Facebook</span>
           <svg class="go" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M8.6 5.4 10 4l8 8-8 8-1.4-1.4 6.6-6.6z"/></svg>
         </a>
 
         <!-- TODO: confirm the TikTok handle -->
-        <a class="btn" href="https://www.tiktok.com/@digrano.eg" target="_blank" rel="noopener">
+        <a class="btn social tiktok" href="https://www.tiktok.com/@digrano.eg" target="_blank" rel="noopener">
           <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.6 2h-3.2v13.2a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .8.1V9.1a6.1 6.1 0 1 0 5.3 6V8.8a7.6 7.6 0 0 0 4.4 1.4V7a4.4 4.4 0 0 1-4.4-5z"/></svg></span>
           <span class="label">TikTok</span>
           <svg class="go" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M8.6 5.4 10 4l8 8-8 8-1.4-1.4 6.6-6.6z"/></svg>
         </a>
 
+        <a class="btn social instapay" href="https://ipn.eg/S/digrano/instapay/1yy8cf" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M3 5.5A2.5 2.5 0 0 1 5.5 3h13A2.5 2.5 0 0 1 21 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 18.5v-13zm2 2v2h14v-2H5zm0 5v6h14v-6H5zm2 2h4v2H7v-2z"/></svg></span>
+          <span class="label">InstaPay</span>
+          <svg class="go" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M8.6 5.4 10 4l8 8-8 8-1.4-1.4 6.6-6.6z"/></svg>
+        </a>
+
         <!-- TODO: replace with your direct Google "write a review" link if you have one -->
-        <a class="btn" href="https://maps.app.goo.gl/BbFuVh4Y7W1uNNFX9" target="_blank" rel="noopener">
+        <a class="btn review" href="https://maps.app.goo.gl/BbFuVh4Y7W1uNNFX9" target="_blank" rel="noopener">
           <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.1l-6.1 3.5 1.4-6.8L2.2 9.1l6.9-.8L12 2z"/></svg></span>
           <span class="label">Leave a Review</span>
           <svg class="go" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M8.6 5.4 10 4l8 8-8 8-1.4-1.4 6.6-6.6z"/></svg>
